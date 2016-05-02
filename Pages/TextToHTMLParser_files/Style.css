@@ -1,0 +1,50 @@
+/* StyleSheet to add boxes to- Text to HTML Parser.HTML */
+
+#H3 { /* Box for Logo and header */
+	text-align: center;
+	height: 45px;
+	width: 310px;
+	border: 5px solid black;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+
+#Input {
+	height: 250px;
+	width: 1200px;
+	border: 5px solid black;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+
+#Result {
+	height: 220px;
+	width: 1200px;
+	border: 5px solid black;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+
+#Preview {
+	height: 300px;
+	width: 1200px;
+	border: 5px solid black;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+
+a:link { /* All Links */
+	color: #008080;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover { /* All Links */
+	color: #006400;
+	font-weight: bold;
+	text-decoration: Underline;
+}
+	
+	/* Text to HTML Parser by Kyzeragon-
+		http://kyzderp.github.io/derps/TextToHTML.html
+				-Style.css by Smokezarn */
