@@ -6,9 +6,10 @@
 
 /*------ Testing Area! ------*/
 
+
 						/*--- Body ---*/
 body { /* Main Body */
-	background-color:#1a1a1a;
+	background-color: #1a1a1a;
 }
 
 	#Logo { /* Box for Logo and header */
@@ -33,30 +34,44 @@ body { /* Main Body */
 		border-radius: 10px;
 	}
 
-	.CenBox { /* Box for Center Body */
+	.LinkBox { /* Box for Center Body */
 		width: 400px;
-		height: 400px;
+		height: 420px;
 		border: 5px solid gray;
 		border-radius: 20px;
 		background: url(http://i.imgur.com/zZUbQxs.png);
 		margin: auto;
 	}
-
-	/*-- Body Div boxes --*/	
-.container { /* Box for Left/Right Boxes */
-    width: 1300px;
-    background-color: #1a1a1a;
-    margin: auto;
+	
+	#email {
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
 }
-
-	#LiBox {	 /* Box for Left Body */
-		float: left;
-		height: 810px;
-		width: 180px;
-		border: 5px solid gray;
-		border-radius: 20px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
+	#email .text {
+	width: 350px;
+	height: 150px;
+	text-align: center;
+	padding: 5px;
+	margin: auto;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
 	}
+
+	
+	/*-- Body Div boxes --*/	
+#LiBox {	 /* Box for Left Body */
+	float: left;
+	height: 810px;
+	width: 180px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
 
 	#RiBox { /* Box for Right Body */
 		float: right;
@@ -76,9 +91,8 @@ body { /* Main Body */
 #Footer { 
 	background: LightGray url(http://i.imgur.com/zZUbQxs.png) 0 0 repeat-x; 
 	height: 33px;
-	width: 1300px;
 	border: 5px solid gray;
-	border-radius: 20px;
+	border-radius: 13px;
 	margin: auto;
 	
 }
@@ -115,10 +129,10 @@ body { /* Main Body */
 	border-radius: 10px;
 	}
 	
-	#Footer Address Merh Top {
-		border: 2px solid gray;
+	#Footer Address Top {
 		border-radius: 20px;
 		Float: left;
+		Margin: auto;
 	}
 
 
