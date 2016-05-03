@@ -1,0 +1,175 @@
+/* css for NeraRecords.Html */ /* */
+
+/*------ Testing Area! ------*/
+
+
+
+/*------ Testing Area! ------*/
+
+
+						/*--- Body ---*/
+body { /* Main Body */
+	background-color: #1a1a1a;
+}
+
+	#Logo { /* Box for Logo and header */
+	height: 300px;
+	width: 500px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+
+	/*-- Links-Box --*/
+.TDiv { /* Box for Table of Links */
+	height: 160px;
+	width: 300px;
+	border: 2px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+
+	#TBord { /* Table of Links */
+		Background-color:Lightgray;
+		border-radius: 10px;
+	}
+
+	.LinkBox { /* Box for Center Body */
+		width: 400px;
+		height: 420px;
+		border: 5px solid gray;
+		border-radius: 20px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+		margin: auto;
+	}
+	
+	#email {
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+		#email .text {
+		width: 350px;
+		height: 150px;
+		text-align: center;
+		padding: 5px;
+		margin: auto;
+		border: 5px solid gray;
+		border-radius: 20px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+		}
+
+	
+	/*-- Body Div boxes --*/	
+#LiBox {	 /* Box for Left Body */
+	float: left;
+	height: 810px;
+	width: 180px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+
+	#RiBox { /* Box for Right Body */
+		float: right;
+		height: 810px;
+		width: 180px;
+		border: 5px solid gray;
+		border-radius: 20px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+
+	.clear {
+		clear: both;
+	}
+
+
+						/*--- Footer ---*/
+#Footer { 
+	background: LightGray url(http://i.imgur.com/zZUbQxs.png) 0 0 repeat-x; 
+	height: 33px;
+	border: 5px solid gray;
+	border-radius: 13px;
+	margin: auto;
+	
+}
+	#Footer address { 
+		color: #008080; 
+		font-style: normal; 
+		font-size: 9px; 
+		height:23px; 
+		margin: 0px; 
+		padding: 8px 0 0;
+		text-align: 
+		center; 
+	}
+	
+	#Footer address span {
+		color: #008080; 
+		font-family: Tahoma, "Times New Roman", Times, serif; 
+		font-size: 12px; 
+		font-weight:normal;  
+		margin-right:6px; 
+		text-transform:uppercase; 
+	}
+	
+	#Top { /* Top. button */
+	float: left;
+	Background-color:gray;
+	border-radius: 8px;
+	border: solid 1px black
+	}
+	
+	#Merh { /* Merh. Name */
+	float: right;
+	Background-color:Lightgray;
+	border-radius: 10px;
+	}
+	
+	#Footer Address Top {
+		border-radius: 20px;
+		Float: left;
+		Margin: auto;
+	}
+
+
+						/*--- Links ---*/
+a:link { /* All Links */
+	color: #008080;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover { /* All Links */
+	color: #006400;
+	font-weight: bold;
+	text-decoration: Underline;
+}
+
+#DiceBoxes {
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	padding: 5px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+
+	div.dice{
+		float:left;
+		width:32px;
+		background:#F5F5F5;
+		border:#999 1px solid;
+		padding:10px;
+		font-size:24px;
+		text-align:center;
+		margin:5px;
+	}
+
+	/* Code and Programing by:
+			:Dalian Hayes~ Source Help from CodeAcademy.com */
