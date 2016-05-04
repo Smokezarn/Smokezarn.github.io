@@ -20,29 +20,18 @@ body { /* Main Body */
 	background: url(http://i.imgur.com/zZUbQxs.png);
 	}
 
-	/*-- Links-Box --*/
-.TDiv { /* Box for Table of Links */
-	height: 160px;
-	width: 300px;
-	border: 2px solid gray;
+	/*-- Textarea-Box --*/
+.CenBox { /* Box for Center Body */
+	width: 400px;
+	height: 230px;
+	border: 5px solid gray;
 	border-radius: 20px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
+	margin: auto;
 }
 
-	#TBord { /* Table of Links */
-		Background-color:Lightgray;
-		border-radius: 10px;
-	}
 
-	.LinkBox { /* Box for Center Body */
-		width: 400px;
-		height: 420px;
-		border: 5px solid gray;
-		border-radius: 20px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-		margin: auto;
-	}
-	
+	/*-- Email box --*/
 	#email {
 	margin: auto;
 	width: 400px;
@@ -71,19 +60,34 @@ body { /* Main Body */
 	border: 5px solid gray;
 	border-radius: 20px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
+	clear: left;
+	display: inline-block;
 }
+	
+	/*
+	.CenSph {
+		padding: 20px 20px 20px 20px;
+		margin-left: 370px;
+		margin-top: 170px;
+		height: 500px;
+		width: 500px;
+		border: 5px solid gray;
+		border-radius: 100%;
+		text-align: center;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+		display: inline-block;
+	}
+	*/
 
-	#RiBox { /* Box for Right Body */
+#RiBox { /* Box for Right Body */
 		float: right;
 		height: 810px;
 		width: 180px;
 		border: 5px solid gray;
 		border-radius: 20px;
 		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-
-	.clear {
-		clear: both;
+		clear: right;
+		display: inline-block;
 	}
 
 
@@ -94,7 +98,7 @@ body { /* Main Body */
 	border: 5px solid gray;
 	border-radius: 13px;
 	margin: auto;
-	
+	clear: both;
 }
 	#Footer address { 
 		color: #008080; 
@@ -149,6 +153,34 @@ a:hover { /* All Links */
 	text-decoration: Underline;
 }
 
+
+						/*--- Fixed Box ---*/
+	.FixBox{ /* Fixed box */
+		height: 100px;
+		width: 220px;
+		border: 2px solid gray;
+		border-radius: 20px;
+		position: fixed;
+		text-align: center;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+	
+		#FixDiv { /* Fixed Box for Table of Links */
+			height: 160px;
+			width: 200px;
+			border: 2px solid gray;
+			border-radius: 20px;
+			background: url(http://i.imgur.com/zZUbQxs.png);
+			display: inline-block;
+		}
+		
+			#TBord { /* Table of Links */
+				Background-color:Lightgray;
+				border-radius: 10px;
+			}
+			
+			
+						/*--- Dice JavaScript ---*/
 #DiceBoxes {
 	position: absolute;
 	width: 400px;
