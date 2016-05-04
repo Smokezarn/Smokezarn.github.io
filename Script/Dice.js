@@ -9,6 +9,6 @@ function rollDice(){
 	var diceTotal = d1 + d2 + d3;
 	die1.innerHTML = d1;
 	die2.innerHTML = d2;
-	die3.innerHTML = d2;
+	die3.innerHTML = d3;
 	status.innerHTML = "You rolled "+diceTotal+".";
 }
