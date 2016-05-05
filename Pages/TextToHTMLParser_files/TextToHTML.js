@@ -6,10 +6,14 @@ All characters that need to be green ( 006400 ) are-
 
 ( Hi, how are you? ) and it outputs-
 ( <color=#008080>Hi</color><color=#006400>,</color><color=#008080> how are you</color><color=#006400>?</color> ) =
+( [color=#008080]Hi[/color][color=#006400],[/color][color=#008080] how are you[/color][color=#006400]?[/color] )
+
 
 */
 
 var GREENLETTERS = "][}{=-+_)(*&^%$#@!~`';/.,|\\\":?><";
+
+var resultbbcode;
 
 var submitForm = function()
 {
@@ -17,8 +21,8 @@ var submitForm = function()
 	var result = parse(input);
 	if (result != "")
 	{
-		document.getElementById("outputtext").innerHTML = result;
-		document.getElementById("outputtext").select();
+		document.getElementById("outputhtml").innerHTML = result;
+		document.getElementById("outputbbcode").innerHTML = resultbbcode;
 		document.getElementById("preview").innerHTML = result;
 	}
 };
@@ -26,6 +30,7 @@ var submitForm = function()
 function parse(input)
 {
 	var result = "";
+	resultbbcode = "";
 	var accumulated = "";
 	var currColor = "aqua";
 
@@ -43,6 +48,7 @@ function parse(input)
 			else // Need to switch from aqua
 			{
 				result += aqua(accumulated);
+				resultbbcode += aquabb(accumulated);
 				accumulated = curr;
 				currColor = "green";
 			}
@@ -57,6 +63,7 @@ function parse(input)
 			else
 			{
 				result += green(accumulated);
+				resultbbcode += greenbb(accumulated);
 				accumulated = curr;
 				currColor = "aqua";
 			}
@@ -65,10 +72,15 @@ function parse(input)
 
 	// End of input, add last part
 	if (currColor == "aqua")
+	{
 		result += aqua(accumulated);
+		resultbbcode += aquabb(accumulated);
+	}
 	else
+	{
 		result += green(accumulated);
-
+		resultbbcode += aquabb(accumulated);
+	}
 	return result;
 }
 
@@ -87,14 +99,16 @@ function green(input)
 	return '<span style="color: #006400;">' + input + '</span>';
 }
 
-/*
-function green(input)
+function aquabb(input)
 {
 	if (input == "")
 		return "";
-	return '<font style="color: #006400;">' + input + '</font>';
+	return '[color=#008080]' + input + '[/color]';
 }
-*/
 
-/* saved from url=(0046)http://kyzderp.github.io/derps/TextToHTML.html
-	Parser Made By Kyzeragon^ For Smokezarn on request. */
+function greenbb(input)
+{
+	if (input == "")
+		return "";
+	return '[color=#006400]' + input + '[/color]';
+}
