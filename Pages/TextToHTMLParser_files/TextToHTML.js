@@ -112,3 +112,6 @@ function greenbb(input)
 		return "";
 	return '[color=#006400]' + input + '[/color]';
 }
+
+/* saved from url=(http://kyzderp.github.io/derps/TextToHTML.html)
+	Parser Made By Kyzeragon^ For Smokezarn on request. */
