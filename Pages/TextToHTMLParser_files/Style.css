@@ -33,6 +33,19 @@
 	background: url(http://i.imgur.com/zZUbQxs.png);
 }
 
+.FixBox{ /* Fixed box */ 
+	height: 25px; 
+	width: 110px; 
+	border: 2px solid gray; 
+	border-radius: 20px; 
+	position: fixed; 
+	right: 20px; 
+	top: 20%; 
+	text-align: center; 
+	padding: 10px 10px 10px 10px; 
+	background: url(http://i.imgur.com/zZUbQxs.png); 
+}
+
 a:link { /* All Links */
 	color: #008080;
 	font-weight: bold;
