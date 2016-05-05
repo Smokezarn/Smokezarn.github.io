@@ -57,6 +57,15 @@ a:hover { /* All Links */
 	font-weight: bold;
 	text-decoration: Underline;
 }
+
+#Merh { /* Merh. Name */ 
+	float: right; 
+	Background-color:Lightgray; 
+	border-radius: 10px; 
+	position: fixed; 
+	right: 5px; 
+	bottom: 1% 
+}
 	
 	/* Text to HTML Parser by Kyzeragon-
 		http://kyzderp.github.io/derps/TextToHTML.html
