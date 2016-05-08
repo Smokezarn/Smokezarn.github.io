@@ -2,7 +2,7 @@
 
 /*------ Testing Area! ------*/
 
-	
+
 
 /*------ Testing Area! ------*/
 
@@ -181,6 +181,12 @@ a:hover { /* All Links */
 				Background-color:Lightgray;
 				border-radius: 10px;
 			}
+			
+		#CoffeeMug {
+			display: inline-block;
+			margin: auto;
+			Position: fixed;
+		}
 			
 			
 						/*--- Dice JavaScript ---*/
