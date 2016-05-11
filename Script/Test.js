@@ -1,5 +1,5 @@
 	/* JavaScript for NeraRecords.Html (index)*/
-document.write("Last modified on "+document.lastModified write.fontcolor("green"););
+document.write("Last modified on "+document.lastModified write.fontcolor("green");
 
 	/* Code for Clock */
 function runClock() {
