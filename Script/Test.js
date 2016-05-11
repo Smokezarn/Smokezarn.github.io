@@ -1,3 +1,31 @@
+	/* JavaScript for NeraRecords.Html (index)*/
+
+	/* Code for Clock */
+function runClock() {
+
+	now = new Date();
+
+	hours = now.getHours();
+
+	minutes = now.getMinutes();
+
+	seconds = now.getSeconds();
+
+	timeStr = "" + ((hours > 12) ? hours - 12 : hours);
+
+	timeStr += ((minutes < 10) ? ":0" : ":") + minutes;
+
+	timeStr += ((seconds < 10) ? ":0" : ":") + seconds;
+
+	timeStr += (hours >= 12) ? " PM" : " AM";
+
+	document.clock.face.value=timeStr;
+
+	setTimeout("runClock()",1000);
+}
+
+
+	/* Code for Dice roller! */
 	function rollDice(){
 		var die1 = document.getElementById("Die1");
 		var die2 = document.getElementById("Die2");
@@ -14,4 +42,4 @@
 	}
 
 		/* Code and Programing by:
-			:Dalian Hayes~ */
+			:Dalian Hayes~ Source Help from CodeAcademy.com */
