@@ -53,10 +53,17 @@ body { /* Main Body */
 
 	
 	/*-- Body Div boxes --*/	
+	
+		#CoffeeMug {
+			display: inline-block;
+			margin: auto;
+			position: absolute;
+		}
+		
 #LiBox {	 /* Box for Left Body */
 	float: left;
 	height: 810px;
-	width: 180px;
+	width: 193px;
 	border: 5px solid gray;
 	border-radius: 20px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
@@ -64,25 +71,11 @@ body { /* Main Body */
 	display: inline-block;
 }
 	
-	/*
-	.CenSph {
-		padding: 20px 20px 20px 20px;
-		margin-left: 370px;
-		margin-top: 170px;
-		height: 500px;
-		width: 500px;
-		border: 5px solid gray;
-		border-radius: 100%;
-		text-align: center;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-		display: inline-block;
-	}
-	*/
 
 #RiBox { /* Box for Right Body */
 		float: right;
 		height: 810px;
-		width: 180px;
+		width: 193px;
 		border: 5px solid gray;
 		border-radius: 20px;
 		background: url(http://i.imgur.com/zZUbQxs.png);
@@ -157,12 +150,12 @@ a:hover { /* All Links */
 
 						/*--- Fixed Box ---*/
 	.FixBox{ /* Fixed box */
-		height: 100px;
+		height: 110px;
 		width: 220px;
 		border: 2px solid gray;
 		border-radius: 20px;
 		position: fixed;
-		right: 0;
+		right: 1%;
 		top: 10%;
 		text-align: center;
 		background: url(http://i.imgur.com/zZUbQxs.png);
@@ -182,14 +175,9 @@ a:hover { /* All Links */
 				border-radius: 10px;
 			}
 			
-		#CoffeeMug {
-			display: inline-block;
-			margin: auto;
-			Position: fixed;
-		}
 			
 			
-						/*--- Dice JavaScript ---*/
+						/*--- Dice JavaScript Box---*/
 #DiceBoxes {
 	position: absolute;
 	width: 400px;
@@ -213,4 +201,4 @@ a:hover { /* All Links */
 	}
 
 	/* Code and Programing by:
-			:Dalian Hayes~ Source Help from CodeAcademy.com */
+			:Dalian Hayes~ Source Help from CodeAcademy.com */ 
