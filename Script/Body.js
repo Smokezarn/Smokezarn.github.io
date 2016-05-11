@@ -28,7 +28,7 @@ function runClock() {
 
 
 	/* Code for Dice roller! */
-	function rollDice(){
+function rollDice(){
 	var die1 = document.getElementById("Die1");
 	var die2 = document.getElementById("Die2");
 	var die3 = document.getElementById("Die3");
