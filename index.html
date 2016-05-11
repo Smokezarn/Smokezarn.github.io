@@ -16,16 +16,15 @@
 		<link rel="icon" href="http://i.imgur.com/7B8WXBb.png">
 		<title>Nera National Records</title>
 		<link type="text/css" rel="stylesheet" href="./Script/Stylesheet.css" />
-		<link type="text/css" rel="stylesheet" href="./Script/Scail.css" />
 		<link type="text/css" rel="stylesheet" href="./Script/Coffee.css" />
-		<script type="text/javascript" src="./Script/Dice.js"></script>
+		<script type="text/javascript" src="./Script/Body.js"></script>
 	</head>
 		<br><br>
-	<body>
+	<body onLoad="runClock();">
 
 				<!-- Testing Area! -->		
 			
-				
+			
 			
 				<!-- Testing Area! -->
 	
@@ -34,7 +33,9 @@
 		<div class="FixBox">
 		<p> <span style="color: #006400;">][</span><span style="color: #008080;"> Welcome to Nera Records</span><span style="color: #006400;">!</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span> </p>
 		<a href="./Downloads/Thanks.txt" download="Thanks.txt"><INPUT TYPE=SUBMIT NAME=DOWN VALUE="Download File"></a>
-		<br><br><br>
+		<br><form style="border: 2px solid gray; display: inline-block; margin-top: 5px;" name="clock"><input type="text" name="face" size="10"></form>
+		<br><br>
+		
 		<div id="FixDiv">
 			<center><br><table id="TBord" border="10px"style="Background-color:Lightgray">
 				<thead><tr><th colspan="5" style="color: Green"><b>Links to other Pages</b></th></tr></thead>
@@ -131,6 +132,26 @@
 						<li style="font-family:Futura; color: teal"><span style="color: #008080;">96</span><span style="color: #006400;">.</span><span style="color: #008080;">47</span><span style="color: #006400;">.</span><span style="color: #008080;">236</span><span style="color: #006400;">.</span><span style="color: #008080;">110</span><span style="color: #006400;">:</span><span style="color: #008080;">9003</span></li>		
 					</ul>
 				</li>
+					<div id="CoffeeMug">
+						<div class="circle">
+						<div class="green-circle">
+						<div class="silver-circle">
+						<div class="behind-cup">
+						<div class="cup-body">
+						<div class="in-the-cup"></div>
+						<div class="in-the-cup-top">
+						<div class="coffee"></div>
+						</div>
+						</div>
+						</div>
+						</div>
+						<div class="shmog"></div><center><p><span style="color: #006400;">][</span><span style="color: #008080;"> </span><span style="color: #006400;">*</span><span style="color: #008080;">Sips Coffee</span><span style="color: #006400;">*</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span></p></center>
+						</div>
+						<div class="handle"></div>
+						<div class="shmogi"></div>
+						</div>
+						<div class="shmogii"></div>
+					</div>
 				
 				<li><p style="color:green; font-size:20px">Staff</p>
 					<ul>
@@ -148,10 +169,6 @@
 			<br>
 			</div>
 			
-			<!-- <div class="CenSph"><br><br><br>
-				<h2><span style="color: #008080;">Im in a CIRCLE</span><span style="color: #006400;">!</span></h2><br><br><br>
-				<p><span style="color: #006400;">*</span><span style="color: #008080;"> Presents long exagerated Heart</span><span style="color: #006400;">-</span><span style="color: #008080;">warming story about being the only text inside a Circular Div</span><span style="color: #006400;">*</span></p>
-			</div> -->
 			
 			<!-- Right Box In Body -->
 			<div id="RiBox">
