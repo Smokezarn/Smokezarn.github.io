@@ -1,9 +1,3 @@
-	/* JavaScript for NeraRecords.Html (index)*/
-document.write("Last modified on "+document.lastModified);
-
-
-	/* Code for Clock */
-
 
 	/* Code for Dice roller! */
 	function rollDice(){
