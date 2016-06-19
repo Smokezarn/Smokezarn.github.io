@@ -1,0 +1,134 @@
+/* css for Tecards.Html */ /* */
+
+/*------ Testing Area! ------*/
+
+
+
+/*------ Testing Area! ------*/
+
+
+						/*--- Body ---*/
+body { /* Main Body */
+	background-color: #1a1a1a;
+}
+
+	#Logo { /* Box for Logo and header */
+	height: 300px;
+	width: 500px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+
+
+	/*-- Email box --*/
+
+	.Info{
+		height: 300px;
+		width: 800px;
+		border: 5px solid gray;
+		border-radius: 10px;
+		margin: auto;
+		clear: both;
+		text-align: left;
+		padding: 1%;
+	}
+
+	
+	#Email {
+	float: left;
+	height: 350px;
+	width: 400px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	clear: left;
+	display: inline-block;
+	}
+		#Email .text {
+		width: 350px;
+		height: 100px;
+		text-align: center;
+		padding: 5px;
+		margin: auto;
+		border: 5px solid gray;
+		border-radius: 20px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+		}
+		
+	#email {
+		float: right;
+		height: 350px;
+		width: 400px;
+		border: 5px solid gray;
+		border-radius: 20px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+		clear: right;
+		display: inline-block;
+	}
+		#email .text {
+		width: 350px;
+		height: 100px;
+		text-align: center;
+		padding: 5px;
+		margin: auto;
+		border: 5px solid gray;
+		border-radius: 20px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+		}
+
+						/*--- Footer ---*/
+#Footer { 
+	background: LightGray url(http://i.imgur.com/zZUbQxs.png) 0 0 repeat-x; 
+	height: 33px;
+	border: 5px solid gray;
+	border-radius: 13px;
+	margin: auto;
+	clear: both;
+}
+	#Footer address { 
+		color: #008080; 
+		font-style: normal; 
+		font-size: 9px; 
+		height:23px; 
+		margin: 0px; 
+		padding: 10px 10px 10px;
+		text-align: center; 
+	}
+	
+	#Footer address span {
+		color: #008080; 
+		font-family: Tahoma, "Times New Roman", Times, serif; 
+		font-size: 12px; 
+		font-weight:normal;  
+		margin-right:6px; 
+		text-transform:uppercase; 
+	}
+	
+	
+	#Footer Address Top {
+		border-radius: 20px;
+		Float: left;
+		Margin: auto;
+	}
+
+
+						/*--- Links ---*/
+a:link { /* All Links */
+	color: #008080;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover { /* All Links */
+	color: #006400;
+	font-weight: bold;
+	text-decoration: Underline;
+}
+			
+			
+			
+						/*--- Dice JavaScript Box---*/
+
+	/* Code and Programing by:
+			:Dalian Hayes~ Source Help from CodeAcademy.com */
