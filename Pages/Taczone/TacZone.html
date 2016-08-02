@@ -59,21 +59,21 @@
 			<TR>
 				<TD VALIGN=TOP><font style="color:teal">Local Notes And Tools for Simplisity:</font><TD><br>
 				<TD><TEXTAREA placeholder=" =  $${
-								 Checkif($$Coffee=full);
-								  -If($False);
-								  -Wait(1)
-								  -log(uh... Refill!);
-								  -Echo($$Run=$$<Refill.txt>);
-								  -If(${Refill.txt}=false-Run_script=110010011011101-01);
-								   -Checkif($$Coffee=full);
-								 ElseIf()
-								  -If($True);
-								  -Wait(1)
-								  -Log( ... );
-								  -Echo(Tellraw @a[r=100] *Sips Coffee*
-								
-								 Endif($$Coffee=full);
-								}$$" ROWS="6" COLS=50 NAME=Comments WRAP=VIRTUAL></TEXTAREA></TD>
+			 Checkif($$Coffee=full);
+			  -If($False);
+			  -Wait(1)
+			  -log(uh... Refill!);
+			  -Echo($$Run=$$<Refill.txt>);
+			  -If(${Refill.txt}=false-Run_script=110010011011101-01);
+			   -Checkif($$Coffee=full);
+			 ElseIf()
+			  -If($True);
+			  -Wait(1)
+			  -Log( ... );
+			  -Echo(Tellraw @a[r=100] *Sips Coffee*
+			
+			 Endif($$Coffee=full);
+			}$$" ROWS="6" COLS=50 NAME=Comments WRAP=VIRTUAL></TEXTAREA></TD>
 			</TR><br>
 		
 			<!--BEGIN OF SCIENTIFIC CALCULATOR CODE-->
