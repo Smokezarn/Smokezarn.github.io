@@ -10,71 +10,66 @@
 		<br><br>
 	<body onLoad="runClock();">	
 	
+	<div id="spoiler-" style="display:none" >
 		<div class="FixBox">
 		<p> <span style="color: #006400;">][</span><span style="color: #008080;"> Team NightHawk HQ Database</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span> </p>
 		&nbsp;<form style="border: 2px solid gray; display: inline-block; margin-top: 5px;" name="clock"><input type="text" name="face" size="8"></form>
 		<br><br>
 		
-		<div id="FixDiv">
-			<center><br><table id="TBord" border="7px"style="Background-color:Lightgray">
-				<thead><tr><th colspan="5" style="color: Green"><b>Documents On Record</b></th></tr></thead></tbody>
-				<tr>
-					<td colspan="5"><center><a href="./Docs/1MB.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE="][ Misson Breifing ]["></a></center></td>
-				</tr><tr>
-					<td colspan="5"><center><a href="./Docs/2BR.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE=" 1: Toll Booth Log "></a></center></td>
-				</tr><tr>
-					<td colspan="5"><center><a href="./Docs/3BJ.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE=" 2: Toll Booth Journal "></a></center></td>
-				</tr><tr>
-					<td colspan="5"><center><a href="./Docs/4BOW.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE=" 3: B.O.W Report"></a></center></td>
-				</tr><tr>
-					<td colspan="5"><center><a href="./Docs/5IJ.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE=" 4: Inn Journal "></a></center></td>
-				</tr><tr>
-					<td colspan="5"><center><a href="./Docs/6AOGMB.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE=" 5: AO-GMB Report "></a></center></td>
-				</tr><tr>
-					<td colspan="5"><center><a href="./Docs/7GW.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE=" 6: Gra-yrd. Doc:1 "></a></center></td>
-				</tr><tr>
-					<td colspan="5"><center><a href="./Docs/8GOR.jpg" target="_blank"><INPUT TYPE=SUBMIT VALUE=" 7: Gra-yrd. Doc:2 "></a></center></td>
-				</tr>
-				</tbody></table></center>
-				<a href="./Docs/Spreads/Spreads.html"><INPUT TYPE=SUBMIT VALUE=" ][ SpreadSheets ][ "></a>
-				<a href="./Docs/Tactical_zone.zip" download="Tactical_zone"><INPUT TYPE=SUBMIT NAME=DOWN VALUE="Download Folder"></a>
-				</div>
-				
-				
+			<div id="FixDiv">
+				<center><br><table id="TBord" border="7px"style="Background-color:Lightgray">
+					<thead><tr><th colspan="5" style="color: Green"><b>Documents On Record</b></th></tr></thead></tbody>
+					<tr>
+						<td colspan="5"><center><a href="./Docs/1MB.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE="][ Misson Breifing ]["></a></center></td>
+					</tr><tr>
+						<td colspan="5"><center><a href="./Docs/2BR.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE=" 1: Toll Booth Log "></a></center></td>
+					</tr><tr>
+						<td colspan="5"><center><a href="./Docs/3BJ.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE=" 2: Toll Booth Journal "></a></center></td>
+					</tr><tr>
+						<td colspan="5"><center><a href="./Docs/4BOW.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE=" 3: B.O.W Report"></a></center></td>
+					</tr><tr>
+						<td colspan="5"><center><a href="./Docs/5IJ.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE=" 4: Inn Journal "></a></center></td>
+					</tr><tr>
+						<td colspan="5"><center><a href="./Docs/6AOGMB.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE=" 5: AO-GMB Report "></a></center></td>
+					</tr><tr>
+						<td colspan="5"><center><a href="./Docs/7GW.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE=" 6: Gra-yrd. Doc:1 "></a></center></td>
+					</tr><tr>
+						<td colspan="5"><center><a href="./Docs/8GOR.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE=" 7: Gra-yrd. Doc:2 "></a></center></td>
+					</tr>
+					</tbody></table></center>
+					
+					<a href="./Docs/Spreads/Spreads.html"><INPUT TYPE=SUBMIT VALUE=" ][ SpreadSheets ][ "></a>
+					<a href="./Docs/Tactical_zone.zip" download="Tactical_zone"><INPUT TYPE=SUBMIT NAME=DOWN VALUE="Download Folder"></a>
+			</div>		
 		</div>
+	</div>
 		
 		<br>
 		
 		<center>
 			<div id="Logo">
-				<p style="color: teal; font-size:30px; text-align:center"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Tactical Zone- </span><span style="color: #006400;">][</span></strong></em></p>
-			</div>
+				<p style="color: teal; font-size:30px; text-align:center"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Tactical Zone - </span><span style="color: #006400;">][</span></strong></em></p>
+			</div><button class="Button" title="Click To Show The Town Map" type="button" onclick="if(document.getElementById('spoiler-') .style.display=='none') {document.getElementById('spoiler-') .style.display=''}else{document.getElementById('spoiler-') .style.display='none'}"> ][ SideBar ][ </button>
+			
 		<br>
-			<!-- Town Map --><img src="./Docs/om.bmp" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Area Map" />
-			<!-- Base Map --><img src="./Docs/image.jpg" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Base Map" />
+		<!-- Town Map -->
+			<div id="spoiler" style="display:none" >
+			<img src="./Docs/om.bmp" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Area Map" />
+			</div>
+			<button class="Button" title="Click To Show The Town Map" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}"> ][ Show Town Map ][ </button>
+			
+		<!-- Base Map -->
+			<div id="spoiler2" style="display:none">
+			<img src="./Docs/image.jpg" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Base Map" />
+			</div>
+			<button class="Button" title="Click To Show The Base Map" type="button" onclick="if(document.getElementById('spoiler2') .style.display=='none') {document.getElementById('spoiler2') .style.display=''}else{document.getElementById('spoiler2') .style.display='none'}"> ][ Show Base Map ][ </button>
 		</center>
 	
 		<br>
-
 			<div Id="CenBox"><br>
 			<TR>
 				<TD VALIGN=TOP><font style="color:teal">Local Notes And Tools for Simplisity:</font><TD><br>
-				<TD><TEXTAREA placeholder="  $${
-			 Checkif($$Coffee=full);
-			  -If($False);
-			  -Wait(1)
-			  -log(uh... Refill!);
-			  -Echo($$Run=$$<Refill.txt>);
-			  -If(${Refill.txt}=false-Run_script=110010011011101-01);
-			   -Checkif($$Coffee=full);
-			 ElseIf()
-			  -If($True);
-			  -Wait(1)
-			  -Log( ... );
-			  -Echo(Tellraw @a[r=100] *Sips Coffee*
-			
-			 Endif($$Coffee=full);
-			}$$" ROWS="6" COLS=50 NAME=Comments WRAP=VIRTUAL></TEXTAREA></TD>
+				<TD><TEXTAREA placeholder=" 		 *Sips Coffee*" ROWS="6" COLS=50 NAME=Comments WRAP=VIRTUAL></TEXTAREA></TD>
 			</TR><br>
 			<!--BEGIN OF SCIENTIFIC CALCULATOR CODE-->
 				<script>
@@ -88,12 +83,14 @@
 				</style>
 				<table><tr><td id="sciout"><div><div id="sciOutPut">0</div></div><div style="padding-top:3px;width:100%"><div><span onclick="r('sin')" class="scifunc">sin</span><span onclick="r('cos')" class="scifunc">cos</span><span onclick="r('tan')" class="scifunc">tan</span><span class="scird"><label for="scirdsettingd"><input id="scirdsettingd" type="radio" name="scirdsetting" value="deg" onClick="degreeRadians='degree';" checked>Deg</label><label for="scirdsettingr"><input id="scirdsettingr" type="radio" name="scirdsetting" value="rad" onClick="degreeRadians='radians';">Rad</label></span></div><div><span onclick="r('asin')" class="scifunc">sin<sup>-1</sup></span><span onclick="r('acos')" class="scifunc">cos<sup>-1</sup></span><span onclick="r('atan')" class="scifunc">tan<sup>-1</sup></span><span onclick="r('pi')" class="scifunc">&#960;</span><span onclick="r('e')" class="scifunc">e</span></div><div><span onclick="r('pow')" class="scifunc">x<sup>y</sup></span><span onclick="r('x3')" class="scifunc">x<sup>3</sup></span><span onclick="r('x2')" class="scifunc">x<sup>2</sup></span><span onclick="r('ex')" class="scifunc">e<sup>x</sup></span><span onclick="r('10x')" class="scifunc">10<sup>x</sup></span></div><div><span onclick="r('apow')" class="scifunc"><sup>y</sup>&#8730;x</span><span onclick="r('3x')" class="scifunc"><sup>3</sup>&#8730;x</span><span onclick="r('sqrt')" class="scifunc">&#8730;x</span><span onclick="r('ln')" class="scifunc">ln</span><span onclick="r('log')" class="scifunc">log</span></div><div><span onclick="r('(')" class="scifunc">(</span><span onclick="r(')')" class="scifunc">)</span><span onclick="r('1/x')" class="scifunc">1/x</span><span onclick="r('pc')" class="scifunc">%</span><span onclick="r('n!')" class="scifunc">n!</span></div></div><div style="padding-top:3px;"><div><span onclick="r(7)" class="scinm">7</span><span onclick="r(8)" class="scinm">8</span><span onclick="r(9)" class="scinm">9</span><span onclick="r('+')" class="sciop">+</span><span onclick="r('MS')" class="sciop">MS</span></div><div><span onclick="r(4)" class="scinm">4</span><span onclick="r(5)" class="scinm">5</span><span onclick="r(6)" class="scinm">6</span><span onclick="r('-')" class="sciop">&ndash;</span><span onclick="r('M+')" class="sciop">M+</span></div><div><span onclick="r(1)" class="scinm">1</span><span onclick="r(2)" class="scinm">2</span><span onclick="r(3)" class="scinm">3</span><span onclick="r('*')" class="sciop">&#215;</span><span onclick="r('M-')" class="sciop">M-</span></div><div><span onclick="r(0)" class="scinm">0</span><span onclick="r('.')" class="scinm">.</span><span onclick="r('EXP')" class="sciop">EXP</span><span onclick="r('/')" class="sciop">&#247;</span><span onclick="r('MR')" class="sciop">MR</span></div><div><span onclick="r('+/-')" class="sciop">&#177;</span><span onclick="r('RND')" class="sciop">RND</span><span onclick="r('C')" class="scieq">C</span><span onclick="r('=')" class="scieq">=</span><span onclick="r('MC')" class="sciop">MC</span></div></div></td></tr><tr><td id="calfootnote">powered by <a href="http://www.calculator.net">calculator.net</a></td></tr></table>
 				<!--END OF SCIENTIFIC CALCULATOR CODE-->
+				
 			<div id="DiceBoxes">
-			<div id="Die1" class="dice">D-4</div>
-			<div id="Die2" class="dice">D-6</div>
-			<div id="Die3" class="dice">D-20</div>
-			<button onclick="rollDice()">Roll Dice</button><br>
-			<h2 id="status" style="clear:left;"></h2></div>
+				<div id="Die1" class="dice">D-4</div>
+				<div id="Die2" class="dice">D-6</div>
+				<div id="Die3" class="dice">D-20</div>
+				<button class="Button" onclick="rollDice()">Roll Dice</button><br>
+				<h2 id="status" style="clear:left;"></h2>
+			</div>
 			
 			</div>
 		<br>			
