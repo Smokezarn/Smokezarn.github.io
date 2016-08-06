@@ -54,7 +54,7 @@ a:hover { /* All Links */
 		width: 270px;
 		border: 2px solid gray;
 		border-radius: 20px;
-		position: fixed;
+		position: absolute;
 		right: 10px;
 		top: 100px;
 		text-align: center;
