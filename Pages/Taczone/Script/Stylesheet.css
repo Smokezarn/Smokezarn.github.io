@@ -1,54 +1,23 @@
 
-
 						/*--- Body ---*/
 body { /* Main Body */
 	background-color: #1a1a1a;
 }
 
-	#Logo {
-	height: 100px;
-	width: 500px;
-	border: 5px solid gray;
-	border-radius: 20px;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-
-	#CenBox { 
+	#Spoils {
+	height: 125px;
+	width: 180px;
+	left: 9px;
+	top: 42px;
+	Padding: 6px;
 	border: 2px solid gray;
-	border-radius: 10px;
+	border-radius: 16px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
-	Padding: 10px;
-	left: 50%;
-	top: 50%;
 	display: inline-block;
+	position: absolute;
 	}
-
 	
-	
-	#Merh { /* Merh. Name */ 
-		Background-color: #1a1a1a; 
-		border-radius: 10px; 
-		float: right;
-		height: 70px;
-		width: 100px0px;
-	}
-
-
-						/*--- Links ---*/
-a:link { /* All Links */
-	color: #008080;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-a:hover { /* All Links */
-	color: #006400;
-	font-weight: bold;
-	text-decoration: Underline;
-}
-
-
-						/*--- Fixed Box ---*/
+					/*--- Fixed Box ---*/
 	.FixBox{ /* Fixed box */
 		height: 90px;
 		width: 270px;
@@ -56,7 +25,7 @@ a:hover { /* All Links */
 		border-radius: 20px;
 		position: absolute;
 		right: 10px;
-		top: 100px;
+		top: 75px;
 		text-align: center;
 		background: url(http://i.imgur.com/zZUbQxs.png);
 	}
@@ -69,6 +38,7 @@ a:hover { /* All Links */
 			background: url(http://i.imgur.com/zZUbQxs.png);
 			display: inline-block;
 			text-align: center;
+			overflow-y: scroll
 		}
 		
 			#TBord { /* Table of Links */
@@ -76,9 +46,47 @@ a:hover { /* All Links */
 				border-radius: 10px;
 				margin: auto;
 			}
-			
-			
-			
+
+	#Logo {
+	height: 100px;
+	width: 500px;
+	border: 5px solid gray;
+	border-radius: 20px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+
+	#CenBox { /* Calc  notes DIce roller */
+	left: 50%;
+	top: 50%;
+	Padding: 10px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	display: inline-block;
+	}
+
+	
+				/* Lower Body and Footer */
+	#Merh { /* Merh. Name */ 
+		Background-color: #1a1a1a; 
+		border-radius: 10px; 
+		float: right;
+		height: 70px;
+		width: 100px0px;
+	}
+	
+						/*--- Links ---*/
+a:link { /* All Links */
+	color: #008080;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover { /* All Links */
+	color: #006400;
+	font-weight: bold;
+	text-decoration: Underline;
+}			
 						/*--- Dice JavaScript Box---*/
 #DiceBoxes {
 	width: 400px;
@@ -104,7 +112,7 @@ a:hover { /* All Links */
 	}
 
 	
-	.Button {
+	.Button { /* custom button*/
 		-moz-box-shadow:inset 0px 1px 3px 0px #75a8a1;
 		-webkit-box-shadow:inset 0px 1px 3px 0px #75a8a1;
 		box-shadow:inset 0px 1px 3px 0px #75a8a1;
