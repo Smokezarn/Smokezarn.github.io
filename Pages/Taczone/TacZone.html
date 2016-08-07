@@ -8,18 +8,29 @@
 		<link type="text/css" rel="stylesheet" href="./Script/Stylesheet.css" />
 		<script type="text/javascript" src="./Script/JavaScript.js"></script>
 	</head>
-		<br><br>
+		<br>
+		<br>
 	<body onLoad="runClock();">	
-	
-	<div id="spoiler-" style="display:none" >
-		<div class="FixBox">
-		<p> <span style="color: #006400;">][</span><span style="color: #008080;"> Team NightHawk HQ Database</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span> </p>
-		&nbsp;<form style="border: 2px solid gray; display: inline-block; margin-top: 5px;" name="clock"><input type="text" name="face" size="8"></form>
-		<br><br>
-		
-			<div id="FixDiv">
+		<div id="Spoils">
+			<tbody><tr>
+				<button class="Button" title="Click To Show The Side bar" type="button" onclick="if(document.getElementById('spoiler-') .style.display=='none') {document.getElementById('spoiler-') .style.display=''}else{document.getElementById('spoiler-') .style.display='none'}"> ][ SideBar ][ </button>
+			</tr><tr>
+				<button class="Button" title="Click To Show The Town Map" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}"> ][ Show Town Map ][ </button>
+			</tr><tr>
+				<button class="Button" title="Click To Show The Base Map" type="button" onclick="if(document.getElementById('spoiler2') .style.display=='none') {document.getElementById('spoiler2') .style.display=''}else{document.getElementById('spoiler2') .style.display='none'}"> ][ Show Base Map ][ </button>
+			</tr>
+			</tbody></table>
+		</div>
+			
+			<div id="spoiler-" style="display:none" >
+			<div class="FixBox">
+			<p> <span style="color: #006400;">][</span><span style="color: #008080;"> Team NightHawk HQ Database</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span> </p>
+			&nbsp;<form style="border: 2px solid gray; display: inline-block; margin-top: 5px;" name="clock"><input type="text" name="face" size="8"></form>
+			<br>
+			<br>
+				<div id="FixDiv">
 				<center><br><table id="TBord" border="7px"style="Background-color:Lightgray">
-					<thead><tr><th colspan="5" style="color: Green"><b>Documents On Record</b></th></tr></thead></tbody>
+					<thead><tr><th colspan="5" style="color: Green"><b>Documents On Record</b></th></tr></thead><tbody>
 					<tr>
 						<td colspan="5"><center><a href="./Docs/1MB.jpg" target="_blank"><INPUT class="Button" TYPE=SUBMIT VALUE="][ Misson Breifing ]["></a></center></td>
 					</tr><tr>
@@ -41,31 +52,26 @@
 					
 					<a href="./Docs/Spreads/Spreads.html" target="_blank"><INPUT TYPE=SUBMIT VALUE=" ][ SpreadSheets ][ "></a>
 					<a href="./Docs/Tactical_zone.zip" download="Tactical_zone"><INPUT TYPE=SUBMIT NAME=DOWN VALUE="Download Folder"></a>
-			</div>		
-		</div>
-	</div>
+				</div>		
+			</div>
+			</div>
 		
 		<br>
-		
-		<center>
-			<div id="Logo">
-				<p style="color: teal; font-size:30px; text-align:center"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Tactical Zone - </span><span style="color: #006400;">][</span></strong></em></p>
-			</div><button class="Button" title="Click To Show The Town Map" type="button" onclick="if(document.getElementById('spoiler-') .style.display=='none') {document.getElementById('spoiler-') .style.display=''}else{document.getElementById('spoiler-') .style.display='none'}"> ][ SideBar ][ </button>
-			
-		<br>
-		<!-- Town Map -->
-		<button class="Button" title="Click To Show The Town Map" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}"> ][ Show Town Map ][ </button>
-			<div id="spoiler" style="display:none" >
-			<a href="./Docs/om.bmp" target="_blank"><img src="./Docs/om.bmp" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Area Map" /></a>
-			</div>
-			
-		<!-- Base Map -->
-		<button class="Button" title="Click To Show The Base Map" type="button" onclick="if(document.getElementById('spoiler2') .style.display=='none') {document.getElementById('spoiler2') .style.display=''}else{document.getElementById('spoiler2') .style.display='none'}"> ][ Show Base Map ][ </button>
-			<div id="spoiler2" style="display:none">
-			<a href="./Docs/image.jpg" target="_blank"><img src="./Docs/image.jpg" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Base Map" /></a>
-			</div>
-		</center>
-	
+			<center>
+				<div id="Logo">
+					<p style="color: teal; font-size:30px; text-align:center"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Tactical Zone - </span><span style="color: #006400;">][</span></strong></em></p>
+				</div>
+			<br>
+			<br>
+			<!-- Town Map -->
+				<div id="spoiler" style="display:none" >
+				<a href="./Docs/om.bmp" target="_blank"><img src="./Docs/om.bmp" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Area Map" /></a>
+				</div>	
+			<!-- Base Map -->
+				<div id="spoiler2" style="display:none">
+				<a href="./Docs/image.jpg" target="_blank"><img src="./Docs/image.jpg" Style="width:80%; height: 80%; border: 5px solid gray; border-radius: 20px;" title="source: Tactical Zone Base Map" /></a>
+				</div>
+			</center>
 		<br>
 			<div Id="CenBox"><br>
 			<TR>
@@ -83,16 +89,14 @@
 				#sciout{padding:5px;border-top:1px solid #262626;border-left:1px solid #262626;border-right:2px outset #262626;border-bottom:2px outset #262626;background: #eeeeee;font-family:arial,helvetica,sans-serif;}#sciOutPut{font-size:18px;padding:3px;margin:2px;cursor:text;text-align:right;background-color:#B8C6A3;border:1px solid #87996b;border-radius: 3px;color:#000;}.scifunc{display: inline-block;display: table-cell;vertical-align: middle;text-align:center;width:50px;height:25px;margin:1px;border:1px solid #262626;border-radius: 3px;font-family:arial,helvetica,sans-serif;font-size:16px;font-weight:bold;color:#185290;background-color:#C8D8E8;}.scifunc:active {background-color:#013f7d;color:#ffffff;}.scinm{display: inline-block;display: table-cell;vertical-align: middle;padding: 5px 0px;text-align:center;width:50px;height:30px;margin:1px;border:1px solid #262626;border-radius: 3px;font-family:arial,helvetica,sans-serif;font-size:16px;font-weight:bold;color:#FFF;background-color:#262626;}.scinm:active {background-color:#aaaaaa;color:#000000;}.sciop{display: inline-block;display: table-cell;vertical-align: middle;padding: 5px 0px;text-align:center;width:50px;height:30px;margin:1px;border:1px solid #262626;border-radius: 3px;font-family:arial,helvetica,sans-serif;font-size:16px;font-weight:bold;color:#262626;background-color:#ccc;}.sciop:active {background-color:#000000;color:#ffffff;}.scird{display: inline-block;display: table-cell;vertical-align: middle;text-align:center;height:30px;margin:1px;border:1px solid #eeeeee;border-radius: 3px;font-family:arial,helvetica,sans-serif;font-size:13px;color:#262626;}.scieq{display: inline-block;display: table-cell;vertical-align: middle;padding: 5px 0px;text-align:center;width:50px;height:30px;margin:1px;border:1px solid #262626;border-radius: 3px;font-family:arial,helvetica,sans-serif;font-size:16px;font-weight:bold;color:#F00;background-color:#DCADB0;}.scieq:active {background-color:#ff0000;color:#ffffff;}#calfootnote {font-family:arial,helvetica,sans-serif;font-size:12px;text-align:right;}
 				</style>
 				<table><tr><td id="sciout"><div><div id="sciOutPut">0</div></div><div style="padding-top:3px;width:100%"><div><span onclick="r('sin')" class="scifunc">sin</span><span onclick="r('cos')" class="scifunc">cos</span><span onclick="r('tan')" class="scifunc">tan</span><span class="scird"><label for="scirdsettingd"><input id="scirdsettingd" type="radio" name="scirdsetting" value="deg" onClick="degreeRadians='degree';" checked>Deg</label><label for="scirdsettingr"><input id="scirdsettingr" type="radio" name="scirdsetting" value="rad" onClick="degreeRadians='radians';">Rad</label></span></div><div><span onclick="r('asin')" class="scifunc">sin<sup>-1</sup></span><span onclick="r('acos')" class="scifunc">cos<sup>-1</sup></span><span onclick="r('atan')" class="scifunc">tan<sup>-1</sup></span><span onclick="r('pi')" class="scifunc">&#960;</span><span onclick="r('e')" class="scifunc">e</span></div><div><span onclick="r('pow')" class="scifunc">x<sup>y</sup></span><span onclick="r('x3')" class="scifunc">x<sup>3</sup></span><span onclick="r('x2')" class="scifunc">x<sup>2</sup></span><span onclick="r('ex')" class="scifunc">e<sup>x</sup></span><span onclick="r('10x')" class="scifunc">10<sup>x</sup></span></div><div><span onclick="r('apow')" class="scifunc"><sup>y</sup>&#8730;x</span><span onclick="r('3x')" class="scifunc"><sup>3</sup>&#8730;x</span><span onclick="r('sqrt')" class="scifunc">&#8730;x</span><span onclick="r('ln')" class="scifunc">ln</span><span onclick="r('log')" class="scifunc">log</span></div><div><span onclick="r('(')" class="scifunc">(</span><span onclick="r(')')" class="scifunc">)</span><span onclick="r('1/x')" class="scifunc">1/x</span><span onclick="r('pc')" class="scifunc">%</span><span onclick="r('n!')" class="scifunc">n!</span></div></div><div style="padding-top:3px;"><div><span onclick="r(7)" class="scinm">7</span><span onclick="r(8)" class="scinm">8</span><span onclick="r(9)" class="scinm">9</span><span onclick="r('+')" class="sciop">+</span><span onclick="r('MS')" class="sciop">MS</span></div><div><span onclick="r(4)" class="scinm">4</span><span onclick="r(5)" class="scinm">5</span><span onclick="r(6)" class="scinm">6</span><span onclick="r('-')" class="sciop">&ndash;</span><span onclick="r('M+')" class="sciop">M+</span></div><div><span onclick="r(1)" class="scinm">1</span><span onclick="r(2)" class="scinm">2</span><span onclick="r(3)" class="scinm">3</span><span onclick="r('*')" class="sciop">&#215;</span><span onclick="r('M-')" class="sciop">M-</span></div><div><span onclick="r(0)" class="scinm">0</span><span onclick="r('.')" class="scinm">.</span><span onclick="r('EXP')" class="sciop">EXP</span><span onclick="r('/')" class="sciop">&#247;</span><span onclick="r('MR')" class="sciop">MR</span></div><div><span onclick="r('+/-')" class="sciop">&#177;</span><span onclick="r('RND')" class="sciop">RND</span><span onclick="r('C')" class="scieq">C</span><span onclick="r('=')" class="scieq">=</span><span onclick="r('MC')" class="sciop">MC</span></div></div></td></tr><tr><td id="calfootnote">powered by <a href="http://www.calculator.net">calculator.net</a></td></tr></table>
-				<!--END OF SCIENTIFIC CALCULATOR CODE-->
-				
-			<div id="DiceBoxes">
-				<div id="Die1" class="dice">D-4</div>
-				<div id="Die2" class="dice">D-6</div>
-				<div id="Die3" class="dice">D-20</div>
-				<button class="Button" onclick="rollDice()">Roll Dice</button><br>
-				<h2 id="status" style="clear:left;"></h2>
-			</div>
-			
+			<!--END OF SCIENTIFIC CALCULATOR CODE-->
+					<div id="DiceBoxes">
+						<div id="Die1" class="dice">D-4</div>
+						<div id="Die2" class="dice">D-6</div>
+						<div id="Die3" class="dice">D-20</div>
+						<button class="Button" onclick="rollDice()">Roll Dice</button><br>
+						<h2 id="status" style="clear:left;"></h2>
+					</div>
 			</div>
 		<br>			
 		<br>
