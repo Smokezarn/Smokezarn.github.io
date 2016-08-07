@@ -3,15 +3,6 @@
 body { /* Main Body */
 	background-color: #1a1a1a;
 	}
-
-	#Merh { /* Merh. Name */ 
-		Background-color: #1a1a1a; 
-		border-radius: 10px; 
-		float: right;
-		height: 70px;
-		width: 100px0px;
-	}
-
 						/*--- Fixed Box ---*/
 	.FixBox{ /* Fixed box */
 		height: 55px;
@@ -34,7 +25,15 @@ body { /* Main Body */
 			#TBord { /* Table of Links */
 				Background-color:Lightgray;
 				border-radius: 10px;
-			}
+			}		
+			
+	#Merh { /* Merh. Name */ 
+		Background-color: #1a1a1a; 
+		border-radius: 10px; 
+		float: right;
+		height: 70px;
+		width: 100px0px;
+	}
 			
 	.Button {
 		-moz-box-shadow:inset 0px 1px 3px 0px #75a8a1;
