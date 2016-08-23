@@ -1,187 +1,49 @@
-/* css for NeraRecords.Html */ /* */
+	/* JavaScript for NeraRecords.Html (index)*/
+document.write("Last modified on "+document.lastModified);
 
-/*------ Testing Area! ------*/
+	/* Code for Clock */
+function runClock() {
 
+	now = new Date();
 
+	hours = now.getHours();
 
-/*------ Testing Area! ------*/
+	minutes = now.getMinutes();
 
+	seconds = now.getSeconds();
 
-						/*--- Body ---*/
-body { /* Main Body */
-	background-color: #1a1a1a;
+	timeStr = "" + ((hours > 12) ? hours - 12 : hours);
+
+	timeStr += ((minutes < 10) ? ":0" : ":") + minutes;
+
+	timeStr += ((seconds < 10) ? ":0" : ":") + seconds;
+
+	timeStr += (hours >= 12) ? " PM" : " AM";
+
+	document.clock.face.value=timeStr;
+
+	setTimeout("runClock()",1000);
 }
-
-	#Logo { /* Box for Logo and header */
-	height: 320px;
-	width: 100%;
-	border: 5px solid gray;
-	border-radius: 15px;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-
-	/*-- Textarea-Box --*/
-.CenBox { /* Box for Center Body */
-	width: 400px;
-	height: 230px;
-	border: 5px solid gray;
-	border-radius: 20px;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-	margin: auto;
-	display: inline-block;
-}
-	
-	/*-- Body Div boxes --*/	
-	
-		#CoffeeMug {
-			display: inline-block;
-			margin: auto;
-			position: absolute;
+	window.onload = function() {
+			runClock();
 		}
-		
-#LiBox {	 /* Box for Left Body */
-	float: left;
-	height: 810px;
-	width: 193px;
-	border: 5px solid gray;
-	border-radius: 20px;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-	clear: left;
-	display: inline-block;
-}
-	
-
-#RiBox { /* Box for Right Body */
-		float: right;
-		height: 810px;
-		width: 193px;
-		border: 5px solid gray;
-		border-radius: 20px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-		clear: right;
-		display: inline-block;
-	}
 
 
-						/*--- Footer ---*/
-#Footer { 
-	background: LightGray url(http://i.imgur.com/zZUbQxs.png) 0 0 repeat-x; 
-	height: 70px;
-	border: 5px solid gray;
-	border-radius: 13px;
-	margin: auto;
-	clear: both;
-}
-	#Footer address { 
-		color: #008080; 
-		font-style: normal; 
-		font-size: 9px; 
-		height:23px; 
-		margin: 0px; 
-		padding: 8px 0 0;
-		text-align: center; 
-	}
-	
-	#Footer address span {
-		color: #008080; 
-		font-family: Tahoma, "Times New Roman", Times, serif; 
-		font-size: 12px; 
-		font-weight:normal;  
-		margin-right:6px; 
-		text-transform:uppercase; 
-	}
-	
-	#Top { /* Top. button */
-	float: left;
-	Background-color:gray;
-	border-radius: 8px;
-	border: solid 1px black;
-	}
-	
-	#Merh { /* Merh. Name */ 
-		Background-color: #1a1a1a; 
-		border-radius: 10px; 
-		float: right;
+	/* Code for Dice roller! */
+	function rollDice(){
+		var die1 = document.getElementById("Die1");
+		var die2 = document.getElementById("Die2");
+		var die3 = document.getElementById("Die3");
+		var status = document.getElementById("status");
+		var d1 = Math.floor(Math.random() * 100) + 1;
+		var d2 = Math.floor(Math.random() * 10) + 1;
+		var d3 = Math.floor(Math.random() * 10) + 1;
+		var diceTotal = d1 + d2 + d3;
+		die1.innerHTML = d1;
+		die2.innerHTML = d2;
+		die3.innerHTML = d3;
+		status.innerHTML = "You rolled "+diceTotal+".";
 	}
 
-						/*--- Links ---*/
-a:link { /* All Links */
-	color: #008080;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-a:hover { /* All Links */
-	color: #006400;
-	font-weight: bold;
-	text-decoration: Underline;
-}
-
-
-						/*--- Fixed Box ---*/
-	.FixBox{ /* Fixed box */
-		height: 150px;
-		width: 220px;
-		border: 2px solid gray;
-		border-radius: 20px;
-		position: absolute;
-		left: 20px;
-		top: 73px;
-		text-align: center;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-	
-		#FixDiv { /* Fixed Box for Table of Links */
-			height: 185px;
-			width: 200px;
-			border: 2px solid gray;
-			border-radius: 0px 0px 20px 20px;
-			position: absolute;
-			display: inline-block;
-			right: 10px;
-			top: 120px;
-			background: url(http://i.imgur.com/zZUbQxs.png);
-		}
-		
-	.Button {
-		-moz-box-shadow:inset 0px 1px 3px 0px #75a8a1;
-		-webkit-box-shadow:inset 0px 1px 3px 0px #75a8a1;
-		box-shadow:inset 0px 1px 3px 0px #75a8a1;
-		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1a1a1a), color-stop(1, #328f8f));
-		background:-moz-linear-gradient(top, #1a1a1a 5%, #328f8f 100%);
-		background:-webkit-linear-gradient(top, #1a1a1a 5%, #328f8f 100%);
-		background:-o-linear-gradient(top, #1a1a1a 5%, #328f8f 100%);
-		background:-ms-linear-gradient(top, #1a1a1a 5%, #328f8f 100%);
-		background:linear-gradient(to bottom, #1a1a1a 5%, #328f8f 100%);
-		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a1a1a', endColorstr='#328f8f',GradientType=0);
-		background-color:#1a1a1a;
-		-moz-border-radius:5px;
-		-webkit-border-radius:5px;
-		border-radius:5px;
-		border:1px solid #1a1a1a;
-		display:inline-block;
-		cursor:pointer;
-		color:#ffffff;
-		font-family:Arial;
-		font-size:15px;
-		padding:11px 23px;
-		text-decoration:none;
-		text-shadow:0px -1px 0px #2e6b62;
-	}
-	.Button:hover {
-		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #328f8f), color-stop(1, #1a1a1a));
-		background:-moz-linear-gradient(top, #328f8f 5%, #1a1a1a 100%);
-		background:-webkit-linear-gradient(top, #328f8f 5%, #1a1a1a 100%);
-		background:-o-linear-gradient(top, #328f8f 5%, #1a1a1a 100%);
-		background:-ms-linear-gradient(top, #328f8f 5%, #1a1a1a 100%);
-		background:linear-gradient(to bottom, #328f8f 5%, #1a1a1a 100%);
-		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#328f8f', endColorstr='#1a1a1a',GradientType=0);
-		background-color:#328f8f;
-	}
-	.Button:active {
-		position:relative;
-		top:1px;
-	}		
-
-	/* Code and Programing by:
+		/* Code and Programing by:
 			:Dalian Hayes~ Source Help from CodeAcademy.com */
