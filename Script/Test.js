@@ -1,5 +1,4 @@
 	/* JavaScript for NeraRecords.Html (index)*/
-document.write("Last modified on "+document.lastModified);
 
 	/* Code for Clock */
 function runClock() {
@@ -45,5 +44,5 @@ function runClock() {
 		status.innerHTML = "You rolled "+diceTotal+".";
 	}
 
-		/* Code and Programing by:
-			:Dalian Hayes~ Source Help from CodeAcademy.com */
+	/* © Copyright Dalian Hayes, 2015-2016~ Source Help from CodeAcademy.com 
+					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */
