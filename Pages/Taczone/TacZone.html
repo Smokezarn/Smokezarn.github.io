@@ -4,30 +4,36 @@
 	<head>
 		<link rel="icon" href="http://i.imgur.com/7B8WXBb.png">
 		<title>Tatical Zone</title>
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 		<link type="text/css" rel="stylesheet" href="./Script/Stylesheet.css" />
 		<script type="text/javascript" src="./Script/JavaScript.js"></script>
 	</head>
 		<br>
 		<br>
-	<body onLoad="runClock();">	
-		<div id="Spoils">
-			<tbody><tr>
-				<button class="Button" title="Click To Show The Side bar" type="button" onclick="if(document.getElementById('spoiler-') .style.display=='none') {document.getElementById('spoiler-') .style.display=''}else{document.getElementById('spoiler-') .style.display='none'}"> ][ SideBar ][ </button>
-			</tr><tr>
-				<button class="Button" title="Click To Show The Town Map" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}"> ][ Show Town Map ][ </button>
-			</tr><tr>
-				<button class="Button" title="Click To Show The Base Map" type="button" onclick="if(document.getElementById('spoiler2') .style.display=='none') {document.getElementById('spoiler2') .style.display=''}else{document.getElementById('spoiler2') .style.display='none'}"> ][ Show Base Map ][ </button>
-			</tr>
-			</tbody></table>
-		</div>
+	<body>	
+			<div class="SideBox">
+				<p><span style="color: #006400;">][</span><span style="color: #008080;"> Welcome to Tactical_Zone</span><span style="color: #006400;">!</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span></p>
+					<div id="Spoils">
+						<tbody><tr>
+							<button class="Button" title="Click To Show The Side bar" type="button" onclick="if(document.getElementById('spoiler-') .style.display=='none') {document.getElementById('spoiler-') .style.display=''}else{document.getElementById('spoiler-') .style.display='none'}"> ][ Documents ][ </button>
+						</tr><tr>
+							<button class="Button" title="Click To Show The Town Map" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}"> ][ Show Town Map ][ </button>
+						</tr><tr>
+							<button class="Button" title="Click To Show The Base Map" type="button" onclick="if(document.getElementById('spoiler2') .style.display=='none') {document.getElementById('spoiler2') .style.display=''}else{document.getElementById('spoiler2') .style.display='none'}"> ][ Show Base Map ][ </button>
+						</tr>
+						</tbody></table>
+					</div>
+			</div>
+	
+
 			
-			<div id="spoiler-" style="display:none" >
 			<div class="FixBox">
 			<p> <span style="color: #006400;">][</span><span style="color: #008080;"> Team NightHawk HQ Database</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span> </p>
 			&nbsp;<form style="border: 2px solid gray; display: inline-block; margin-top: 5px;" name="clock"><input type="text" name="face" size="8"></form>
 			<br>
 			<br>
-				<div id="FixDiv">
+			<div id="spoiler-" style="display:none" >
+				<div onmouseover="disableBodyScroll();" onmouseout="enableBodyScroll();"><div id="FixDiv">
 				<center><br><table id="TBord" border="7px"style="Background-color:Lightgray">
 					<thead><tr><th colspan="5" style="color: Green"><b>Documents On Record</b></th></tr></thead><tbody>
 					<tr>
@@ -50,15 +56,20 @@
 					</tbody></table></center>
 					
 					<a href="./Docs/Spreads/Spreads.html" target="_blank"><INPUT TYPE=SUBMIT VALUE=" ][ SpreadSheets ][ "></a>
-					<a href="./Docs/Tactical_zone.zip" download="Tactical_zone"><INPUT TYPE=SUBMIT NAME=DOWN VALUE="Download Folder"></a>
-				</div>		
+					<a href="./Docs/Tactical_zone.zip" download="Tactical_zone"><INPUT TYPE=SUBMIT NAME=DOWN VALUE="Download Folder <- Not Working"></a>
+			<br>
+			<br>
+				</div></div>	
 			</div>
 			</div>
+			
 		
 		<br>
 			<center>
 				<div id="Logo">
 					<p style="color: teal; font-size:30px; text-align:center"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Tactical Zone - </span><span style="color: #006400;">][</span></strong></em></p>
+					<img src="http://i.imgur.com/XuU5xXg.png" title="source: Smokezarn@imgur.com" />
+					<p style="color: teal; font-size:30px; text-align:center"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Strategy, might just save you ~ </span><span style="color: #006400;">][</span></strong></em></p>
 				</div>
 			<br>
 			<br>
@@ -72,10 +83,12 @@
 				</div>
 			</center>
 		<br>
+		
+					<!-- Center Box -->
 			<div Id="CenBox"><br>
 			<TR>
 				<TD VALIGN=TOP><font style="color:teal">Local Notes And Tools for Simplisity:</font><TD><br>
-				<TD><TEXTAREA placeholder=" 		 *Sips Coffee*" ROWS="6" COLS=50 NAME=Comments WRAP=VIRTUAL max-width="80%"></TEXTAREA></TD>
+				<TD><TEXTAREA placeholder=" 		 *Sips Coffee*" ROWS="6" COLS=50 NAME=Comments WRAP=VIRTUAL></TEXTAREA></TD>
 			</TR><br>
 			<!--BEGIN OF SCIENTIFIC CALCULATOR CODE-->
 				<script>
@@ -103,6 +116,6 @@
 	</body>	
 	<footer><div id="Footer"><table id="Merh" border="5px"><thead><tr><th><span style="color: #008080;">Coding by</span><span style="color: #006400;">:</span><span style="color: #008080;"> Smokezarn </span><span style="color: #006400;">|</span><span style="color: #008080;"> Page Created for use In </span><span style="color: #006400;">][</span><span style="color: #008080;"> Tactical Zone Beta game </span><span style="color: #006400;">][</span></th></tr></thead></table></div></footer>
 
-	<!-- Code and Programing by:
-			:Dalian Hayes~ -->
+	<!-- © Copyright Dalian Hayes, 2015-2016~ Source Help from CodeAcademy.com 
+				Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN -->
 </html>
