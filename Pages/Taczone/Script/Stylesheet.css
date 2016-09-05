@@ -1,3 +1,4 @@
+
 						/*--- Body ---*/
 body { /* Main Body */
 	background-color: #1a1a1a;
@@ -6,31 +7,41 @@ body { /* Main Body */
 	#Spoils {
 	height: 125px;
 	width: 180px;
-	left: 9px;
-	top: 42px;
 	Padding: 6px;
 	border: 2px solid gray;
 	border-radius: 16px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
 	display: inline-block;
-	position: absolute;
 	}
 	
+	.SideBox{ /* Left Side Box with clock */
+		height: 210px;
+		width: 220px;
+		border: 2px solid gray;
+		border-radius: 0px 20px 20px 20px;
+		margin-top: 30px;
+		margin-left: 12px;
+		float: left;
+		display: inline-block;
+		text-align: center;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+	}
 					/*--- Fixed Box ---*/
-	.FixBox{ /* Fixed box */
+	.FixBox{ /* Right side Box*/
 		height: 90px;
 		width: 270px;
 		border: 2px solid gray;
 		border-radius: 20px;
-		position: absolute;
-		right: 10px;
-		top: 75px;
+		margin-top: 30px;
+		margin-right: 12px;
+		float: right;
+		display: inline-block;
 		text-align: center;
 		background: url(http://i.imgur.com/zZUbQxs.png);
 	}
 	
-		#FixDiv { /* Fixed Box for Table of Links */
-			height: 500px;
+		#FixDiv { /* Box for Table of Links */
+			height: 200px;
 			width: 260px;
 			border: 2px solid gray;
 			border-radius: 10px 0px 0px 10px;
@@ -47,10 +58,10 @@ body { /* Main Body */
 			}
 
 	#Logo {
-	height: 100px;
-	width: 500px;
+	height: 320px;
+	width: 99.4%;
 	border: 5px solid gray;
-	border-radius: 20px;
+	border-radius: 0px 15px 0px 15px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
 	}
 
@@ -152,5 +163,5 @@ a:hover { /* All Links */
 	}
 
 
-	/* Code and Programing by:
-			:Dalian Hayes~ */
+	/* © Copyright Dalian Hayes, 2015-2016~ Source Help from CodeAcademy.com 
+					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */
