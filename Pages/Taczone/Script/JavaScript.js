@@ -24,7 +24,17 @@ function runClock() {
 
 	setTimeout("runClock()",1000);
 }
+	window.onload = function() {
+			runClock();
+		}
 
+		 var body = document.getElementsByTagName('body')[0];
+			function disableBodyScroll() {
+				body.style.overflowY = 'hidden';
+			}
+			function enableBodyScroll() {
+				body.style.overflowY = 'auto';
+			}
 
 	/* Code for Dice roller! */
 	function rollDice(){
@@ -43,5 +53,5 @@ function runClock() {
 	}
 	
 
-		/* Code and Programing by:
-			:Dalian Hayes~ */
+	/* © Copyright Dalian Hayes, 2015-2016~ Source Help from CodeAcademy.com 
+					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */
