@@ -52,5 +52,5 @@ function runClock() {
 	}
 	
 
-	/* © Copyright Dalian Hayes, 2015-2016~ Source Help from CodeAcademy.com 
+	/* © Copyright Dalian Hayes, 2015-2017~ Source Help from CodeAcademy.com 
 					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */
