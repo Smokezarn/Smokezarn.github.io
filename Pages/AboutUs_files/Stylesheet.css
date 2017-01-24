@@ -90,9 +90,14 @@ html {overflow-x: hidden}
 			position: absolute;
 			overflow-y: scroll
 		}
-		
-		#CenBox iframe { /*--- Discord Readout ---*/
+		#Discord{
+			height:800px;
+			width: 360px;
 			position: absolute;
+			right: 19px;
+			margin-top: 10px;
+		}
+		#CenBox iframe { /*--- Discord Readout ---*/
 			right: 19px;
 			margin-top: 10px;
 		}
@@ -102,9 +107,8 @@ html {overflow-x: hidden}
 			width: 350px;
 			border: 2px solid gray;
 			border-radius: 5px 5px 5px 5px;
-			position: absolute;
 			right: 16px;
-			bottom: 80px;
+			bottom: 12px;
 			background: url(http://i.imgur.com/zZUbQxs.png);
 		}
 		
