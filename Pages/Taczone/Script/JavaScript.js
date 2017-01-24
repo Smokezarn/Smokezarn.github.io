@@ -1,7 +1,13 @@
-
+/*--- JavaScript for Tactical Zone ---*/
 document.write("Last modified on "+document.lastModified);
 
-	/* Code for Clock */
+		/* Script for Dropdown Menu */
+/*toggle between hiding and showing the dropdown content */
+function myFunction1() {document.getElementById("myDropdown1").classList.toggle("show1");}
+function myFunction2() {document.getElementById("myDropdown2").classList.toggle("show2");}
+function myFunction3() {document.getElementById("myDropdown3").classList.toggle("show3");}
+
+	/* Script for Clock */
 function runClock() {
 
 	now = new Date();
@@ -36,7 +42,7 @@ function runClock() {
 				body.style.overflowY = 'auto';
 			}
 
-	/* Code for Dice roller! */
+	/* Script for Dice roller! */
 	function rollDice(){
 		var die1 = document.getElementById("Die1");
 		var die2 = document.getElementById("Die2");
@@ -53,5 +59,5 @@ function runClock() {
 	}
 	
 
-	/* © Copyright Dalian Hayes, 2015-2016~ Source Help from CodeAcademy.com 
+	/* © Copyright Dalian Hayes, 2015-2017~ Source Help from CodeAcademy.com 
 					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */
