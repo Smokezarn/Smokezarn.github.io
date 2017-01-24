@@ -201,7 +201,7 @@ html {overflow-x: hidden}
 		text-decoration:none;
 		text-shadow:0px -1px 0px #2e6b62;
 	}
-	.Button, .dropbtn:hover {
+	.Button:hover, .dropbtn:hover {
 		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #328f8f), color-stop(1, #1a1a1a));
 		background:-moz-linear-gradient(top, #328f8f 5%, #1a1a1a 100%);
 		background:-webkit-linear-gradient(top, #328f8f 5%, #1a1a1a 100%);
@@ -211,7 +211,7 @@ html {overflow-x: hidden}
 		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#328f8f', endColorstr='#1a1a1a',GradientType=0);
 		background-color:#328f8f;
 	}
-	.Button, .dropbtn:active {
+	.Button:active , .dropbtn:active {
 		position:relative;
 		top:1px;
 	}		
