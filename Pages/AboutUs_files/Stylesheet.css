@@ -139,6 +139,7 @@ html {overflow-x: hidden}
 			border-radius: 5px 5px 5px 5px;
 			right: 16px;
 			bottom: 12px;
+			z-index: 1;
 			background: url(http://i.imgur.com/zZUbQxs.png);
 		}
 		#information img:hover{

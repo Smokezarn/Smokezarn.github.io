@@ -58,24 +58,15 @@ html {overflow-x: hidden}
 	border-radius: 0px 15px 0px 15px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
 	}
-
-	/*-- Email Form-Box --*/
-.CenBox { /* Box for Center Body */
-	border: 5px solid gray;
-	border-radius: 2px;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-	margin-top: 9px;
-	display: inline-block;
-}
 	
 	/*-- Body Div boxes --*/	
-	
-		#CoffeeMug {
-			display: inline-block;
-			margin: auto;
-			position: absolute;
+		#CoffeeMug {	
 		}
-		
+.CenterB{
+	height: 812px;
+	width: 99.4%;
+}	
+
 #LiBox {	 /* Box for Left Body */
 	float: left;
 	height: 810px;
@@ -86,7 +77,14 @@ html {overflow-x: hidden}
 	clear: left;
 	display: inline-block;
 }
-	
+		/*-- Email Form-Box --*/
+.CenBox { /* Box for Center Body */
+	border: 5px solid gray;
+	border-radius: 2px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	margin-top: 9px;
+	display: inline-block
+}
 
 #RiBox { /* Box for Right Body */
 		float: right;
