@@ -1,7 +1,6 @@
 /* css for NeraRecords.Html */ /* */
 
 /*------ Testing Area! ------*/
-
  
 #Messages {
 	height:650px;
@@ -71,6 +70,7 @@ html {overflow-x: hidden}
 					/*--- Body ---*/
 	body { /* Main Body */
 		background-color: #1a1a1a;
+		min-width:1000px;
 	}
 
 	#Logo { /* Box for Logo and header */
