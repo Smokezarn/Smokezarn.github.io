@@ -2,52 +2,71 @@
 <!-- saved from url=(0046)http://kyzderp.github.io/derps/TextToHTML.html -->
 	<!-- Parser Made By Kyzeragon^ For Smokezarn. -->
 	
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="icon" href="http://imgur.com/f9h5ozg.png">
 		<title>Nera - HTML Parser</title>
-			<link rel="stylesheet" type="text/css" href="./TextToHTMLParser_files/format.css">
-			<link rel="stylesheet" type="text/css" href="./TextToHTMLParser_files/inputs.css">
 			<link rel="stylesheet" type="text/css" href="./TextToHTMLParser_files/Style.css">
+			<link rel="stylesheet" type="text/css" href="../Script/Common.css">
+		<script type="text/javascript" src="../Script/Common.js"></script>
 		<script type="text/javascript" src="./TextToHTMLParser_files/TextToHTML.js"></script>
 	</head>
 	
-	<div class="FixBox"><FORM><INPUT Type="button" VALUE="Back To Home" onClick="history.go(-1);return true;"></FORM><br></div>
-<body style="color: rgb(26, 26, 26); font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: sans-serif;" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
-		<div id="H3"><h3><span style="color: #006400;">][</span><span style="color: #008080;"> Text Format to HTML Text Parser </span><span style="color: #006400;">][</span></h3></div><br>
-		
+	<body style="font-size: 14px; font-family: sans-serif;">
+	
+	<div id="Logo">
+		<a href="../index.html"><img src="http://imgur.com/f9h5ozg.png" title="source: Smokezarn@imgur.com" /></a>
+		<p id="Nera" style="font-size:30px;"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Nera National Records </span><span style="color: #006400;">][: </span><span style="color: #008080;">HTML Parser</span></strong></em></p>
+		<form id="Clock" name="clock"><input type="text" name="face" size="8"></form>
+			<div class="dropdown">
+			  <button onclick="myFunction1()" class="dropbtn">Other Pages</button>
+			  <div id="myDropdown1" class="dropdown-content">
+				<a href="../index.html"><span style="color: #008080;">Home Page</span></a>
+				<a href="../Pages/AboutUs.html"><span style="color: #006400;">][</span><span style="color: #008080;"> AboutUs </span><span style="color: #006400;">][</span></a>
+				<a href="../Pages/Epic.html"><span style="color: #006400;">][</span> <span style="color: #008080;">Mind</span><span style="color: #006400;">=</span><span style="color: #008080;">Blown</span> <span style="color: #006400;">][</span></a>
+				<a href="../404.html"><span style="color: #006400;">????</span></a>
+				<a href="../404.html"><span style="color: #006400;">????</span></a>
+				<a href="../404.html"><span style="color: #006400;">????</span></a>
+			  </div>
+			</div>
+			
+	</div>	
+<br>		
 		<div id="Input">
-		<p>
-			<span style="color: #008080;">Input text</span><span style="color: #006400;">:</span><br>
-			&nbsp;&nbsp;<textarea id="inputtext" rows="10" cols="160" autofocus="">Hi, how are you?</textarea><br>
-			<input id="submit" type="button" class="btn" value="Parse" onclick="submitForm()">
-		</p></div>
+			<p>
+				&nbsp;<span style="color: #008080;">Input text</span><span style="color: #006400;">:</span><br>
+				&nbsp;&nbsp;<textarea style="width: 97%;" id="inputtext" rows="10" autofocus="">Hi, how are you?</textarea><br>
+				&nbsp;<input id="submit" type="button" class="Button" value="Parse" onclick="submitForm()">
+			</p>
+		</div>
 		
-			<p id="message"><br></p>
+			<p id="message"></p>
 			
 		<div id="Result">
-		<p>
-			<span style="color: #008080;">HTML</span><span style="color: #006400;">:</span><br>
-			&nbsp;&nbsp;<textarea id="outputhtml" rows="10" cols="160">&lt;span style="color: #008080;"&gt;Hi&lt;/span&gt;&lt;span style="color: #006400;"&gt;,&lt;/span&gt;&lt;span style="color: #008080;"&gt; how are you&lt;/span&gt;&lt;span style="color: #006400;"&gt;?&lt;/span&gt;</textarea>
-		</p></div><br>
-		
-		<div id="Result">
-		<p>
-			<span style="color: #008080;">BBCode</span><span style="color: #006400;">:</span><br>
-			&nbsp;&nbsp;<textarea id="outputbbcode" rows="10" cols="160">[color=#008080]Hi[/color][color=#006400],[/color][color=#008080] how are you[/color][color=#008080]?[/color]</textarea>
-		</p></div><br>
-		
+			<p>
+				&nbsp;<span style="color: #008080;">HTML</span><span style="color: #006400;">:</span><br>
+				&nbsp;&nbsp;<textarea style="width: 97%;" id="outputhtml" rows="10">&lt;span style="color: #008080;"&gt;Hi&lt;/span&gt;&lt;span style="color: #006400;"&gt;,&lt;/span&gt;&lt;span style="color: #008080;"&gt; how are you&lt;/span&gt;&lt;span style="color: #006400;"&gt;?&lt;/span&gt;</textarea>
+			</p>
+		</div>
+<br>
+		<div id="Result2">
+			<p>
+				&nbsp;<span style="color: #008080;">BBCode</span><span style="color: #006400;">:</span><br>
+				&nbsp;&nbsp;<textarea style="width: 97%;" id="outputbbcode" rows="10">[color=#008080]Hi[/color][color=#006400],[/color][color=#008080] how are you[/color][color=#008080]?[/color]</textarea>
+			</p>
+		</div>
+<br>
 		<div id="Preview">
-		<p>
-			<span style="color: #006400;">][</span><span style="color: #008080;"> Preview</span><span style="color: #006400;">:</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span><br>
-			<span id="preview"></span>
-		</p></div>
-		
-	<br><INPUT Type="button" VALUE="Back To Home" onClick="history.go(-1);return true;">
-	
-	<script type="text/javascript">
-		document.body.style.font = "14px sans-serif";
-	</script>
-</body>
+			<p>
+				&nbsp;<span style="color: #006400;">][</span><span style="color: #008080;"> Preview</span><span style="color: #006400;">:</span><span style="color: #008080;"> </span><span style="color: #006400;">][</span><br>
+				&nbsp;&nbsp;<span id="preview"></span>
+			</p>
+		</div>		
+<br>	
+		<script type="text/javascript">
+			document.body.style.font = "14px sans-serif";
+		</script>
+	</body>
 
 	<footer>
 		<table id="Merh" border="5px" style="Background-color:#1a1a1a" float="right">
