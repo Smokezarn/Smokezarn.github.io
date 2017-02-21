@@ -12,8 +12,8 @@
 		<script type="text/javascript" src="./TextToHTMLParser_files/TextToHTML.js"></script>
 		<script type="text/javascript" src="../Script/Common.js"></script>
 			<!-- Mobile CSS -->
-			<link rel="stylesheet" media="screen and (min-width: 100px) and (max-width: 800px)" href="./TextToHTMLParser_files/Mobile.css">	
-			<link rel="stylesheet" media="screen and (min-width: 801px)" href="../Script/PagesCSS.css">
+			<link rel="stylesheet" media="screen and (min-width: 100px) and (max-width: 700px)" href="./TextToHTMLParser_files/Mobile.css">	
+			<link rel="stylesheet" media="screen and (min-width: 701px)" href="../Script/PagesCSS.css">
 	</head>
 	
 	<body id="TextToHtml-">	<div id="page-wrap">
@@ -41,6 +41,7 @@
 				&nbsp;<span style="color: #008080;">Input text</span><span style="color: #006400;">:</span><br>
 				&nbsp;&nbsp;<textarea id="inputtext" rows="10" autofocus="">Hi, how are you?</textarea><br>
 			</p>&nbsp;<input id="submit" type="button" class="Button" value="Parse" onclick="submitForm()">
+				&nbsp;&nbsp;<button id="Button-" class="Button" title="Click To Hide Information" type="button" onclick="if(document.getElementById('spoiler-') .style.display=='inline-block') {document.getElementById('spoiler-') .style.display='none'}else{document.getElementById('spoiler-') .style.display='inline-block'}"> Toggle Footer (Mobile only) </button>
 		</div>
 		
 			<p id="message"></p>
@@ -70,7 +71,7 @@
 			document.body.style.font = "14px sans-serif";
 		</script>
 		</div></body>
-
+<div id="spoiler-" style="display: inline-block;" >
 	<footer>
 		<table id="Merh" border="5px" style="Background-color:#1a1a1a" float="right">
 			<thead><tr>
@@ -78,7 +79,7 @@
 			</tr></thead>
 		</table>
 	</footer>
-
+</div>
 		<!-- © Copyright Dalian Hayes > Hannah Chu 2016-2017~ 
 				Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN -->
 </html>

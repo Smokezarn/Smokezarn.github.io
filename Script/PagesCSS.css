@@ -213,6 +213,7 @@
 		background: url(http://i.imgur.com/zZUbQxs.png);
 	}	#TextToHtml- #inputtext {display: inline-block; width: 95%; position: absolute;}
 		#TextToHtml- #submit{display: inline-block; position: relative; margin-top: 130px;}
+		#TextToHtml- #Button- {display: none;}
 
 	#TextToHtml- #Result { /* parsed to HTML */
 		height: 200px;
