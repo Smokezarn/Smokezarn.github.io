@@ -9,15 +9,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- mobile res.1080x1920 -->
 		<meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge">
 			<link rel="stylesheet" type="text/css" href="../Script/Common.css">
-		<script type="text/javascript" src="../Script/Common.js"></script>
 		<script type="text/javascript" src="./TextToHTMLParser_files/TextToHTML.js"></script>
+		<script type="text/javascript" src="../Script/Common.js"></script>
+			<!-- Mobile CSS -->
+			<link rel="stylesheet" media="screen and (min-width: 100px) and (max-width: 800px)" href="./TextToHTMLParser_files/Mobile.css">	
+			<link rel="stylesheet" media="screen and (min-width: 801px)" href="../Script/PagesCSS.css">
 	</head>
 	
-	<body id="TextToHtml-">
-	
+	<body id="TextToHtml-">	<div id="page-wrap">
+
 	<div id="Logo">
 		<a href="../index.html"><img src="http://imgur.com/f9h5ozg.png" title="source: Smokezarn@imgur.com" /></a>
-		<p id="Nera" style="font-size:30px;"><em><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Nera National Records </span><span style="color: #006400;">][: </span><span style="color: #008080;">HTML Parser</span></strong></em></p>
+		<div id="Nera"><br><em class="test"><strong><span style="color: #006400;">][</span><span style="color: #008080;"> Nera National Records </span><span style="color: #006400;">][: </span><span style="color: #008080;">HTML Parser</span></strong></em></div>
 		<form id="Clock" name="clock"><input type="text" name="face" size="8"></form>
 			<div class="dropdown">
 			  <button onclick="myFunction1()" class="dropbtn">Other Pages</button>
@@ -66,7 +69,7 @@
 		<script type="text/javascript">
 			document.body.style.font = "14px sans-serif";
 		</script>
-	</body>
+		</div></body>
 
 	<footer>
 		<table id="Merh" border="5px" style="Background-color:#1a1a1a" float="right">
