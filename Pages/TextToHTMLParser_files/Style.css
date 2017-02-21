@@ -39,14 +39,14 @@
 		
 		/* The container <div> - needed to position the dropdown content */
 		.dropdown {
-			position: absolute;
+			position: relative;
 			display: inline-block;
 			right: 35px;
 			float: right;
 			margin-top: 13px;
 		}
 			/* Dropdown Content */
-		.dropdown-content {display: none;position: relative;z-index: 1;background: url(http://i.imgur.com/zZUbQxs.png);min-width: 160px;box-shadow: 0px 10px 16px 0px rgba(0,0,1,1);}
+		.dropdown-content {display: none; position: absolute;z-index: 1;background: url(http://i.imgur.com/zZUbQxs.png);min-width: 160px;box-shadow: 0px 10px 16px 0px rgba(0,0,1,1);}
 		.dropdown-content a {padding: 12px 16px;text-decoration: none;display: block;}
 		.dropdown-content a:hover {background-color: darkgray}
 		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -54,49 +54,37 @@
 		.show2 {display:block;}
 		.show3 {display:block;}
 
-	#Input {
+	#Input { /* to be parsed */
 		height: 235px;
 		width: 99.4%;
 		border: 5px solid black;
 		border-radius: 20px 20px 0px 0px;
 		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
+	}	#inputtext {display: inline-block; width: 95%; position: absolute;}
+		#submit{display: inline-block; position: relative; margin-top: 130px;}
 
-	#Result {
+	#Result { /* parsed to HTML */
 		height: 200px;
 		width: 99.4%;
 		border: 5px solid black;
 		border-radius: 0px;
 		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
+	}	#outputhtml {width: 97%;}
 	
-	#Result2 {
+	#Result2 { /* parsed to BBCode */
 		height: 200px;
 		width: 99.4%;
 		border: 5px solid black;
 		border-radius: 0px 0px 20px 20px;
 		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
+	}	#outputbbcode {width: 97%;}
 
-	#Preview {
+	#Preview { /* What it would look like */
 		height: auto;
 		width: 99.4%;
 		border: 5px solid black;
 		border-radius: 10px;
 		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-
-	.FixBox{ /* Fixed box */ 
-		height: 25px; 
-		width: 110px; 
-		border: 2px solid gray; 
-		border-radius: 20px; 
-		position: fixed; 
-		right: 20px; 
-		top: 20%; 
-		text-align: center; 
-		padding: 10px 10px 10px 10px; 
-		background: url(http://i.imgur.com/zZUbQxs.png); 
 	}
 
 	a:link { /* All Links */
@@ -111,7 +99,7 @@
 		text-decoration: Underline;
 	}
 
-#Merh { /* Merh. Name */ 
+#Merh { /* Credit box */ 
 	float: right; 
 	Background-color:Lightgray; 
 	border-radius: 10px; 

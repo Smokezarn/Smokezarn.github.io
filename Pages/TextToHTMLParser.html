@@ -3,16 +3,17 @@
 	<!-- Parser Made By Kyzeragon^ For Smokezarn. -->
 	
 <html>
-	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<head>
 		<link rel="icon" href="http://imgur.com/f9h5ozg.png">
 		<title>Nera - HTML Parser</title>
-			<link rel="stylesheet" type="text/css" href="./TextToHTMLParser_files/Style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- mobile res.1080x1920 -->
+		<meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge">
 			<link rel="stylesheet" type="text/css" href="../Script/Common.css">
 		<script type="text/javascript" src="../Script/Common.js"></script>
 		<script type="text/javascript" src="./TextToHTMLParser_files/TextToHTML.js"></script>
 	</head>
 	
-	<body style="font-size: 14px; font-family: sans-serif;">
+	<body id="TextToHtml-">
 	
 	<div id="Logo">
 		<a href="../index.html"><img src="http://imgur.com/f9h5ozg.png" title="source: Smokezarn@imgur.com" /></a>
@@ -35,9 +36,8 @@
 		<div id="Input">
 			<p>
 				&nbsp;<span style="color: #008080;">Input text</span><span style="color: #006400;">:</span><br>
-				&nbsp;&nbsp;<textarea style="width: 97%;" id="inputtext" rows="10" autofocus="">Hi, how are you?</textarea><br>
-				&nbsp;<input id="submit" type="button" class="Button" value="Parse" onclick="submitForm()">
-			</p>
+				&nbsp;&nbsp;<textarea id="inputtext" rows="10" autofocus="">Hi, how are you?</textarea><br>
+			</p>&nbsp;<input id="submit" type="button" class="Button" value="Parse" onclick="submitForm()">
 		</div>
 		
 			<p id="message"></p>
@@ -45,14 +45,14 @@
 		<div id="Result">
 			<p>
 				&nbsp;<span style="color: #008080;">HTML</span><span style="color: #006400;">:</span><br>
-				&nbsp;&nbsp;<textarea style="width: 97%;" id="outputhtml" rows="10">&lt;span style="color: #008080;"&gt;Hi&lt;/span&gt;&lt;span style="color: #006400;"&gt;,&lt;/span&gt;&lt;span style="color: #008080;"&gt; how are you&lt;/span&gt;&lt;span style="color: #006400;"&gt;?&lt;/span&gt;</textarea>
+				&nbsp;&nbsp;<textarea id="outputhtml" rows="10">&lt;span style="color: #008080;"&gt;Hi&lt;/span&gt;&lt;span style="color: #006400;"&gt;,&lt;/span&gt;&lt;span style="color: #008080;"&gt; how are you&lt;/span&gt;&lt;span style="color: #006400;"&gt;?&lt;/span&gt;</textarea>
 			</p>
 		</div>
 <br>
 		<div id="Result2">
 			<p>
 				&nbsp;<span style="color: #008080;">BBCode</span><span style="color: #006400;">:</span><br>
-				&nbsp;&nbsp;<textarea style="width: 97%;" id="outputbbcode" rows="10">[color=#008080]Hi[/color][color=#006400],[/color][color=#008080] how are you[/color][color=#008080]?[/color]</textarea>
+				&nbsp;&nbsp;<textarea id="outputbbcode" rows="10">[color=#008080]Hi[/color][color=#006400],[/color][color=#008080] how are you[/color][color=#008080]?[/color]</textarea>
 			</p>
 		</div>
 <br>
