@@ -47,7 +47,7 @@
 			display: inline-block;
 			right: 35px;
 			float: right;
-			margin-top: 30px;
+			margin-top: 29px;
 		}
 		
 	#TextToHtml- #Input { /* to be parsed */
@@ -58,6 +58,7 @@
 		background: url(http://i.imgur.com/zZUbQxs.png);
 	}	#TextToHtml- #inputtext {display: inline-block; width: 93%; position: absolute;}
 		#TextToHtml- #submit{display: inline-block; position: relative; margin-top: 130px;}
+		#TextToHtml- #Button- {position: absolute; margin-top: 130px;}
 
 	#TextToHtml- #Result { /* parsed to HTML */
 		height: 200px;
