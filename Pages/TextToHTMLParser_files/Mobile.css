@@ -2,7 +2,7 @@
 #page-wrap { width: 99%; }
 #page-wrap:after { content: "Mobile Layout: This is Experimental!"; }
 
-/* StyleSheet For- Text to HTML Parser.HTML */
+/* StyleSheet For- Text to HTML Parser.HTML (Mobile View)*/
 
 	#TextToHtml- #Logo { /* Box for Logo and header */
 	height: 70px;
@@ -88,14 +88,19 @@
 	}
 
 #TextToHtml- #Merh { /* Credit box */ 
-	float: right;
-	Background-color:Lightgray; 
+	Background-color: #1a1a1a; 
+	border: 5px solid black;
 	border-radius: 10px; 
+	padding: 0px 5px 0px 5px;
 	position: fixed; 
-	right: 5px; 
+	display: inline-block;
+	right: 5px;
 	bottom: 1%;
 }
 	
 	/* Text to HTML Parser by Kyzeragon-
 		http://kyzderp.github.io/derps/TextToHTML.html
 				-Style.css by Smokezarn */
+
+/* © Copyright Dalian Hayes, 2015-2017~
+					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */

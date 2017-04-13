@@ -1,17 +1,8 @@
-/* Common CSS file that all my pages use */
 
-/*
+#page-wrap { width: 99%; }
+#page-wrap:after { content: "Mobile Layout: This is Experimental!"; }
 
-	As of 2/21/17: I have merged and Switched over all css links to (Common.css and PagesCSS.css)
-	For the sake of having all of my css in one place. This way i can orgainize everything
-	as needed, However from a resorce point of view, if i have multible pages pulling from
-	one CSS file at the same time i do not know if that would cause delays as everything is
-	trying to call for the same thing, for now i am keeping all CSS files in the respective
-	page's folders untill i have worked everything out
-
-*/
-
-		/* ----=============={ AboutUs.Html Css Below }==============---- */	
+/* StyleSheet For- AboutUs.html (Mobile View)*/
 
 	#AboutUs- #Logo { /* Box for Logo and header */
 	height: 80px;
@@ -152,104 +143,6 @@
 		margin-right:6px; 
 		text-transform:uppercase; 
 	}
-
-		/* ----=============={ TextToHTML Css Below }==============---- */	
-
-	#TextToHtml- #Logo { /* Box for Logo and header */
-	height: 70px;
-	width: 99.4%;
-	border: 5px solid black;
-	border-radius: 15px 15px 15px 15px;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-		#TextToHtml- #Logo img {
-			height: 50px;
-			width: 50px;
-			padding: 10px;
-			border: 5px solid black;
-			border-radius: 15px 0px 0px 15px;
-			position: absolute;
-			left: 8px;
-			margin-top: -5px;
-			background: url(http://i.imgur.com/zZUbQxs.png);
-		}
-		#TextToHtml- #Nera {
-			height: 70px;
-			width: 52vw;
-			border: 5px solid black;
-			border-radius: 0px 0px 0px 0px;
-			position: absolute;
-			left: 83px;
-			margin-top: -5px;
-			background: url(http://i.imgur.com/zZUbQxs.png);
-		}#TextToHtml- #Nera .test {font-size:2.5vw; padding:10px;}
-		
-		#TextToHtml- #Clock {
-			border: 2px solid gray;
-			border-radius: 3px 3px 3px 3px;
-			position: absolute;
-			display: inline-block;
-			right: 15px;
-			margin-top: 8px;
-		}
-		
-		/* The container <div> - needed to position the dropdown content */
-		#TextToHtml- .dropdown {
-			position: relative;
-			display: inline-block;
-			right: 35px;
-			float: right;
-			margin-top: 13px;
-		}
-		
-	#TextToHtml- #Input { /* to be parsed */
-		height: 235px;
-		width: 99.4%;
-		border: 5px solid black;
-		border-radius: 20px 20px 0px 0px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-	}	#TextToHtml- #inputtext {display: inline-block; width: 95%; position: absolute;}
-		#TextToHtml- #submit{display: inline-block; position: relative; margin-top: 130px;}
-		#TextToHtml- #Button- {display: none;}
-
-	#TextToHtml- #Result { /* parsed to HTML */
-		height: 200px;
-		width: 99.4%;
-		border: 5px solid black;
-		border-radius: 0px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-	}	#TextToHtml- #outputhtml {width: 97%;}
 	
-	#TextToHtml- #Result2 { /* parsed to BBCode */
-		height: 200px;
-		width: 99.4%;
-		border: 5px solid black;
-		border-radius: 0px 0px 20px 20px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-	}	#TextToHtml- #outputbbcode {width: 97%;}
-
-	#TextToHtml- #Preview { /* What it would look like */
-		height: auto;
-		width: 99.4%;
-		border: 5px solid black;
-		border-radius: 10px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-
-#TextToHtml- #Merh { /* Credit box */ 
-	Background-color: #1a1a1a; 
-	border: 5px solid black;
-	border-radius: 10px; 
-	padding: 0px 5px 0px 5px;
-	position: fixed; 
-	display: inline-block;
-	right: 5px;
-	bottom: 1%;
-}
-	
-	/* Text to HTML Parser by Kyzeragon-
-		http://kyzderp.github.io/derps/TextToHTML.html
-				-Style.css by Smokezarn */
-
 /* © Copyright Dalian Hayes, 2015-2017~
 					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */
