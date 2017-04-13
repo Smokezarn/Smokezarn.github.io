@@ -1,0 +1,166 @@
+/* css for NeraRecords.Html */ /* */
+
+/*------ Testing Area! ------*/
+ 
+#Messages {
+	height:650px;
+	width: 55%;
+	border: 3px solid gray;
+	border-radius: 5px 5px 5px 5px;
+	margin-left: 5px;
+	Float: left;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+#Updates{
+	height:650px;
+	width: 40%;
+	border: 3px solid gray;
+	border-radius: 5px 5px 5px 5px;
+	margin-right: 5px;
+	float: right;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+}
+.CenterB{
+	width: 99.4%;
+}
+
+/*------ Testing Area! ------*/
+
+html {overflow-x: scroll;}
+
+				/*--- Links ---*/
+	a:link { /* All Links */
+		color: #008080;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	a:hover { /* All Links */
+		color: #006400;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+							/*--- Fixed Box ---*/
+	.FixBox{ /* Left Side Box with clock */
+		height: 150px;
+		width: 220px;
+		border: 2px solid gray;
+		border-radius: 0px 20px 20px 20px;
+		position: absolute;
+		left: 19px;
+		margin-top: 30px;
+		text-align: center;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+	
+	#FixDiv { /* Right Side Box for Table of Links */
+		height: 185px;
+		width: 200px;
+		border: 2px solid gray;
+		border-radius: 0px 0px 20px 20px;
+		position: absolute;
+		display: inline-block;
+		right: 19px;
+		top: 80px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+	
+					/*--- Body ---*/
+	body { /* Main Body */
+		background-color: #1a1a1a;
+		min-width:1000px;
+	}
+
+	#Logo { /* Box for Logo and header */
+	height: 320px;
+	width: 99.4%;
+	border: 5px solid gray;
+	border-radius: 0px 15px 0px 15px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+	
+	/*-- Body Div boxes --*/	
+		#CoffeeMug {	
+		}	
+
+#LiBox {	 /* Box for Left Body */
+	float: left;
+	height: 810px;
+	width: 193px;
+	border: 5px solid gray;
+	border-radius: 20px 0px 0px 0px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	clear: left;
+	display: inline-block;
+}
+		/*-- Email Form-Box --*/
+.CenBox { /* Box for Center Body */
+	height: 795px;
+	border: 5px solid gray;
+	border-radius: 2px;
+	background: url(http://i.imgur.com/zZUbQxs.png);
+	margin-top: 9px;
+	margin-left: 5px;
+	display: inline-block;
+	width:50%; 
+	width:calc(99% - 417px); 
+	min-width:350px; 
+}
+
+#RiBox { /* Box for Right Body */
+		float: right;
+		height: 810px;
+		width: 193px;
+		border: 5px solid gray;
+		border-radius: 0px 20px 0px 0px;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+		clear: right;
+		display: inline-block;
+	}
+
+
+						/*--- Footer ---*/
+#Footer { 
+	background: LightGray url(http://i.imgur.com/zZUbQxs.png) 0 0 repeat-x; 
+	height: 50px;
+	border: 5px solid gray;
+	border-radius: 0px 0px 19px 19px;
+	margin: auto;
+	margin-top: 10px;
+	clear: both;
+}
+	#Footer address { 
+		color: #008080; 
+		font-style: normal; 
+		font-size: 9px; 
+		height:23px; 
+		margin: 0px; 
+		padding: 8px 0 0;
+		text-align: center; 
+	}
+	
+	#Footer address span {
+		color: #008080; 
+		font-family: Tahoma, "Times New Roman", Times, serif; 
+		font-size: 12px; 
+		font-weight:normal;  
+		margin-right:6px; 
+		text-transform:uppercase; 
+	}
+	
+		#Inform { /* Inform. button */
+		float: right;
+		border-radius: 8px;
+		margin-top: -5px;
+		margin-right: 2px;
+		}
+	
+	#Merh { /* Merh. Name */ 
+		Background-color: #1a1a1a; 
+		border-radius: 10px; 
+		float: right;
+	}		
+
+	/* © Copyright Dalian Hayes, 2015-2017~ Source Help from CodeAcademy.com 
+					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */
