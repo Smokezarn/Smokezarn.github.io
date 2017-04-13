@@ -1,0 +1,243 @@
+/* Css to make the CoffeeMug work #006400 #008080*/
+ /* Source from: http://codepen.io/Majix/pen/DsyaL */
+ 
+.circle { 
+background-color: transparent;
+ position: relative;
+  width: 200px;
+   height: 200px;
+    border-radius: 50%;
+     margin: 0 auto;
+      left: 0;
+       right: 0;
+       top: 200px;
+      -moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
+
+.green-circle {
+	background-color: #006400;
+	position: relative;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	top: 30px;
+	left: 5px;
+	
+}
+.silver-circle {
+	background-color: silver;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	
+	top: 6px;
+	left: 10px;
+}
+.behind-cup {
+	
+	position: relative;
+	width: 0;
+	height: 0;
+	border-right:50px solid #008080;
+    border-top:50px solid transparent;
+    border-left:50px solid #008080;
+    border-bottom:50px solid #008080;
+	border-radius: 50px;
+	
+	left: 48px;
+	top: 35px;
+}
+.cup-body {
+	width: 0;
+	height: 0;
+	position: relative;
+	border-right: 49px solid silver;
+	border-top:49px solid transparent;
+	border-left: 49px solid silver;
+	border-bottom: 49px solid silver;
+	border-radius: 49px;
+	top: -60px;
+	left: -49px;
+	
+}
+
+.in-the-cup {
+	background-color: #008080;
+	position:relative;
+	width: 99px;
+	height: 50px;
+	border-radius: 50%;
+	left: -49px;
+	top: -27px;
+
+}
+.in-the-cup-top {
+	background-color: silver;
+	position: relative;
+	width: 90px;
+	height: 42px;
+	border-radius: 50%;
+	left: -41px;
+	top: -73px;
+	
+}
+
+.coffee {
+	background-color: #96281B;
+	position: relative;
+	width: 85px;
+	height: 30px;
+	border-radius: 50%;
+	top: 15px;
+	-ms-transform: rotate(-2deg); /* IE 9 */
+    -webkit-transform: rotate(-2deg); /* Chrome, Safari, Opera */
+    transform: rotate(-2deg);
+}
+
+.handle {
+	background-color: transparent;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border:8px solid #008080;
+	border-left: none;
+	left: 160px;
+	top: -50px;
+	
+}
+
+.shmog {
+	background-color: #006400;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: relative;
+	top:-80px;
+	left: 105px;
+	 -webkit-animation: shmog 5s linear infinite ; /* Chrome, Safari, Opera */
+    animation: shmog 5s linear infinite ;
+}
+
+	@-webkit-keyframes shmog {
+		0%   {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-115px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-145px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-175px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+	@keyframes shmog {
+		0%   {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-115px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-145px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-175px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+	@-ms-keyframes shmog {
+		0%   {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-115px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-145px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-175px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+	@-moz-keyframes shmog {
+		0%   {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-115px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-145px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-175px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+.shmogi {
+	background-color: #96281B;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: relative;
+	top: -80px;
+	left: 100px;
+	 -webkit-animation: shmogi 6s linear 1s infinite ; /* Chrome, Safari, Opera */
+    animation: shmogi 6s linear 1s infinite ;
+}
+
+	@-webkit-keyframes shmogi {
+		0%   {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-110px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-140px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-170px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+	@keyframes shmogi {
+		0%   {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-110px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-140px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-170px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+	@-ms-keyframes shmogi {
+		0% {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-110px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-140px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-170px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+	@-moz-keyframes shmogi {
+		0% {opacity: 1; top:-80px;}
+		25%  {opacity: 0.8;  top:-110px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:-140px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-170px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-200px;width: 50px; height: 50px}
+	}
+
+
+.shmogii {
+	background-color: #008080;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: relative;
+	top: 105px;
+	left: 50%;
+	 -webkit-animation: shmogii 5s linear 3s infinite ; /* Chrome, Safari, Opera */
+    animation: shmogii 5s linear 3s infinite ;
+}
+
+	@-webkit-keyframes shmogii {
+		0%   {opacity: 1; top:105px;}
+		25%  {opacity: 0.8;  top:75px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:35px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-5px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-40px;width: 50px; height: 50px}
+	}
+
+	@keyframes shmogii {
+		0%   {opacity: 1; top:105px;}
+		25%  {opacity: 0.8;  top:75px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:35px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-5px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-40px;width: 50px; height: 50px}
+	}
+
+	@-ms-keyframes shmogii {
+		0%   {opacity: 1; top:105px;}
+		25%  {opacity: 0.8;  top:75px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:35px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-5px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-40px;width: 50px; height: 50px}
+	}
+
+	@-moz-keyframes shmogii {
+		0%   {opacity: 1; top:105px;}
+		25%  {opacity: 0.8;  top:75px;width: 20px; height: 20px}
+		50%  {opacity: 0.6;  top:35px;width: 30px; height: 30px}
+		75%  {opacity: 0.4;  top:-5px;width: 40px; height: 40px}
+		100% {opacity: 0;  top:-40px;width: 50px; height: 50px}
+	}
