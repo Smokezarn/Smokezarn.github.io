@@ -6,16 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- mobile res.1080x1920 -->
 		<meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge">
 			<!-- BootStrap  -->		<!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /><!-- Optional theme --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" /><!-- We need jQuery to make bootstrap.min.js work --><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!-- Latest compiled and minified JavaScript --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-			<link rel="stylesheet" type="text/css" href="../Script/PagesCSS.css">
-			<link rel="stylesheet" type="text/css" href="../Script/Common.css">
-		<script type="text/javascript" src="../Script/Common.js"></script>
+			<link rel="stylesheet" type="text/css" href="../script/PagesCSS.css">
+			<link rel="stylesheet" type="text/css" href="../script/Common.css">
+		<script type="text/javascript" src="../script/Common.js"></script>
 		<!-- Mobile CSS -->
-			<link rel="stylesheet" media="screen and (min-width: 100px) and (max-width: 700px)" href="./AboutUs_files/Mobile.css">	
-			<link rel="stylesheet" media="screen and (min-width: 701px)" href="../Script/PagesCSS.css">
+			<link rel="stylesheet" media="screen and (min-width: 100px) and (max-width: 700px)" href="./aboutus_files/Mobile.css">	
+			<link rel="stylesheet" media="screen and (min-width: 701px)" href="../script/PagesCSS.css">
 	</head>
 	
 	<div id="page-wrap"><center>
-	<body id="AboutUs-">		
+	<body id="AboutUs-" onload="load_page()">		
 <br>
 		<!-- Testing area -->
 
@@ -31,8 +31,8 @@
 					  <button onclick="myFunction1()" class="dropbtn">Other Pages</button>
 					  <div id="myDropdown1" class="dropdown-content">
 						<a href="../index.html"><span style="color: #008080;">Home Page</span></a>
-						<a href="../Pages/TextToHTMLParser.html"><span style="color: #006400;">][</span><span style="color: #008080;"> HTML Parser </span><span style="color: #006400;">][</span></a>
-						<a href="../Pages/Epic.html"><span style="color: #006400;">][</span> <span style="color: #008080;">Mind</span><span style="color: #006400;">=</span><span style="color: #008080;">Blown</span> <span style="color: #006400;">][</span></a>
+						<a href="../pages/texttohtmlparser.html"><span style="color: #006400;">][</span><span style="color: #008080;"> HTML Parser </span><span style="color: #006400;">][</span></a>
+						<a href="../pages/Epic.html"><span style="color: #006400;">][</span> <span style="color: #008080;">Mind</span><span style="color: #006400;">=</span><span style="color: #008080;">Blown</span> <span style="color: #006400;">][</span></a>
 						<a href="../404.html"><span style="color: #006400;">????</span></a>
 						<a href="../404.html"><span style="color: #006400;">????</span></a>
 						<a href="../404.html"><span style="color: #006400;">????</span></a>
@@ -66,8 +66,12 @@
 		</div>
 			<!-- Center box with information -->
 		<div id="CenBox">
-		
+				
 			<div id="AboutUs">
+		<script> function load_page() { document.getElementById("content").innerHTML='<object type="text/html" data="./aboutus_files/info.html" ></object>'; }</script>
+				<div id ="content"> 
+				</div>
+			
 			</div>
 			
 				<div id="Discord"> <!-- Discord Viewer widget -->
@@ -98,5 +102,5 @@
 	</div>	
 	
 	<!-- © Copyright Dalian Hayes, 2015-2017~ Source Help from CodeAcademy.com 
-			Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN -->
+			Detailed Copyright Notice at :http://Smokezarn.github.io/pages/CRN -->
 </html>
