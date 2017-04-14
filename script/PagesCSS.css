@@ -35,12 +35,11 @@
 			height:80px;
 			padding: 10px;
 			border: 5px solid gray;
-			border-radius: 0px 0px 0px 0px;
 			position: absolute;
 			left: 80px;
 			margin-top: -5px;
 			background: url(http://i.imgur.com/zZUbQxs.png);
-		}
+		} 
 		#AboutUs- #Clock {
 			border: 4px solid gray;
 			border-radius: 3px 3px 3px 3px;
@@ -56,9 +55,7 @@
 			float: right;
 			margin-top: 13px;
 		}
-			/* Dropdown Content */
 
-		
 					/*--- Center Box in Body ---*/
 	#AboutUs- #CenBox{
 		height: 800px;
