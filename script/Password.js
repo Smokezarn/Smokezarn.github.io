@@ -47,5 +47,5 @@
 	else
 	alert("Invalid password. Please try again")
 	}
-	/* © Copyright Dalian Hayes, 2015-2017~
+	/* © Copyright Dalian Hayes, 2015-2018~
 			Detailed Copyright Notice at :http://Smokezarn.github.io/pages/CRN */

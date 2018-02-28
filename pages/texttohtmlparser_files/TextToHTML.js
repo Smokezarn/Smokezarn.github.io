@@ -115,3 +115,5 @@ function greenbb(input)
 
 /* saved from url=(http://kyzderp.github.io/derps/TextToHTML.html)
 	Parser Made By Kyzeragon^ For Smokezarn on request. */
+	/* © Copyright Dalian Hayes, 2015-2018~
+					Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN */

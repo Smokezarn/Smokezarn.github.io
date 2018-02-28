@@ -46,3 +46,5 @@ function rollDice(){
 	die3.innerHTML = d3;
 	status.innerHTML = "You rolled "+diceTotal+".";
 }
+// © Copyright Dalian Hayes, 2015-2018~
+	//Detailed Copyright Notice at :http://Smokezarn.github.io/Pages/CRN
