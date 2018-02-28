@@ -60,16 +60,18 @@
 		}
 		#AboutUs- #Nera {
 			height:80px;
-			padding: 10px;
+			padding: 5px;
 			border: 5px solid gray;
 			position: absolute;
 			left: 80px;
 			margin-top: -5px;
 			background: url(http://i.imgur.com/zZUbQxs.png);
-		} 
+		} #AboutUs- #Nera .test {font-size:2.8vw; padding:0px;}
+		
 		#AboutUs- #Clock {
-			border: 4px solid gray;
+			border: 2px solid gray;
 			border-radius: 3px 3px 3px 3px;
+			display: inline-block;
 			position: absolute;
 			right: 15px;
 			margin-top: 8px;
