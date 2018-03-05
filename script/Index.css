@@ -1,78 +1,59 @@
 /* css for NeraRecords.Html */ /* */
 
 /*------ Testing Area! ------*/
- 
-#Messages {
-	height:650px;
-	width: 55%;
-	border: 3px solid gray;
-	border-radius: 5px 5px 5px 5px;
-	margin-left: 5px;
-	Float: left;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-}
-#Updates{
-	height:650px;
-	width: 40%;
-	border: 3px solid gray;
-	border-radius: 5px 5px 5px 5px;
-	margin-right: 5px;
-	float: right;
-	background: url(http://i.imgur.com/zZUbQxs.png);
-}
-.CenterB{
-	width: 99.4%;
-}
+
 
 /*------ Testing Area! ------*/
 
-html {overflow-x: scroll;}
+#NNR- html {overflow-x: scroll;}
+#NNR- {width: 99%;}
 
-	
-							/*--- Fixed Box ---*/
-	.FixBox{ /* Left Side Box with clock */
-		height: 150px;
-		width: 220px;
-		border: 2px solid gray;
-		border-radius: 0px 20px 20px 20px;
-		position: absolute;
-		left: 19px;
-		margin-top: 30px;
-		text-align: center;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-	
-	#FixDiv { /* Right Side Box for Table of Links */
-		height: 185px;
-		width: 200px;
-		border: 2px solid gray;
-		border-radius: 20px 20px 20px 20px;
-		position: absolute;
-		display: block;
-		right: 19px;
-		top: 35px;
-		background: url(http://i.imgur.com/zZUbQxs.png);
-	}
-	
-					/*--- Body ---*/
-	body { /* Main Body */
-		background-color: #1a1a1a;
-		min-width:1000px;
-	}
-
-	#Logo { /* Box for Logo and header */
-	height: 320px;
-	width: 99.4%;
+			/*------ Header ------*/
+#NNR- #Logo { /* Box for Logo and header */
+	height: 90px;
 	border: 5px solid gray;
-	border-radius: 0px 15px 0px 15px;
+	border-radius: 15px 15px 15px 15px;
 	background: url(http://i.imgur.com/zZUbQxs.png);
 	}
-	
-	/*-- Body Div boxes --*/	
-		#CoffeeMug {	
-		}	
+		#NNR- #Logo img {
+			height: 76px;
+			width: 80x;
+			padding: 7px;
+			border: 5px solid gray;
+			border-radius: 15px 0px 0px 15px;
+			position: absolute;
+			left: 4px;
+			margin-top: -5px;
+			background: url(http://i.imgur.com/zZUbQxs.png);
+		}
+		#NNR- #Nera {
+			height:80px;
+			padding: 5px;
+			border: 5px solid gray;
+			position: absolute;
+			left: 95px;
+			margin-top: -5px;
+			background: url(http://i.imgur.com/zZUbQxs.png);
+		} #NNR- #Nera .test {font-size:2.8vw; padding:5px;}
+		
+		#NNR- #Clock {
+			border: 2px solid gray;
+			border-radius: 3px 3px 3px 3px;
+			display: inline-block;
+			position: absolute;
+			right: 15px;
+			margin-top: 8px;
+		}
+		/* The container <div> - needed to position the dropdown content */
+		#NNR- .dropdown {
+			position: absolute;
+			display: inline-block;
+			right: -1px;
+			float: right;
+			margin-top: 35px;
+		}#NNR- .dropdown-content { right:10px; border-radius: 12px; margin-top: 5px;}
 
-#LiBox {	 /* Box for Left Body */
+#NNR- #LiBox {	 /* Box for Left Body */
 	float: left;
 	height: 810px;
 	width: 193px;
@@ -82,8 +63,8 @@ html {overflow-x: scroll;}
 	clear: left;
 	display: inline-block;
 }
-		/*-- Email Form-Box --*/
-.CenBox { /* Box for Center Body */
+
+#NNR- .CenBox { /* Box for Center Body */
 	height: 795px;
 	border: 5px solid gray;
 	border-radius: 2px;
@@ -95,8 +76,26 @@ html {overflow-x: scroll;}
 	width:calc(99% - 417px); 
 	min-width:350px; 
 }
+	#NNR- #Messages {
+		height:650px;
+		width: 55%;
+		border: 3px solid gray;
+		border-radius: 5px 5px 5px 5px;
+		margin-left: 5px;
+		Float: left;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+	}
+	#NNR- #Updates{
+		height:650px;
+		width: 40%;
+		border: 3px solid gray;
+		border-radius: 5px 5px 5px 5px;
+		margin-right: 5px;
+		float: right;
+		background: url(http://i.imgur.com/zZUbQxs.png);
+	}
 
-#RiBox { /* Box for Right Body */
+#NNR- #RiBox { /* Box for Right Body */
 		float: right;
 		height: 810px;
 		width: 193px;
@@ -109,7 +108,7 @@ html {overflow-x: scroll;}
 
 
 						/*--- Footer ---*/
-#Footer { 
+#NNR- #Footer { 
 	background: LightGray url(http://i.imgur.com/zZUbQxs.png) 0 0 repeat-x; 
 	height: 50px;
 	border: 5px solid gray;
@@ -118,7 +117,7 @@ html {overflow-x: scroll;}
 	margin-top: 10px;
 	clear: both;
 }
-	#Footer address { 
+	#NNR- #Footer address { 
 		color: #008080; 
 		font-style: normal; 
 		font-size: 9px; 
@@ -128,7 +127,7 @@ html {overflow-x: scroll;}
 		text-align: center; 
 	}
 	
-	#Footer address span {
+	#NNR- #Footer address span {
 		color: #008080; 
 		font-family: Tahoma, "Times New Roman", Times, serif; 
 		font-size: 12px; 
@@ -137,14 +136,14 @@ html {overflow-x: scroll;}
 		text-transform:uppercase; 
 	}
 	
-		#Inform { /* Inform. button */
+		#NNR- #Inform { /* Inform. button */
 		float: right;
 		border-radius: 8px;
 		margin-top: -5px;
 		margin-right: 2px;
 		}
 	
-	#Merh { /* Merh. Name */ 
+	#NNR- #Merh { /* Merh. Name */ 
 		Background-color: #1a1a1a; 
 		border-radius: 10px; 
 		float: right;

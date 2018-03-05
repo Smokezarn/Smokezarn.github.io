@@ -7,14 +7,10 @@
 #page-wrap { width: 99%; }
 #page-wrap:after { content: "Mobile Layout: This is Experimental!"; }
 
-html {overflow-x: hidden}
 	
 					/*--- Fixed Box ---*/
 
 					/*--- Body ---*/
-	body { /* Main Body */
-		background-color: #1a1a1a;
-	}
 	.modal-header {
 	background: url(http://i.imgur.com/zZUbQxs.png);
 	border-radius: 4px 4px 0px 0px;
@@ -80,7 +76,7 @@ html {overflow-x: hidden}
 			right: -40px;
 			margin-top: 30px;
 		}#AboutUs- .dropbtn{ padding-top: 6px; height: 40px; width: 90px; font-size: 12px; }
-		 #AboutUs- .dropdown-content { right:95px; border-radius: 12px}
+		 #AboutUs- .dropdown-content { right:55px; border-radius: 12px}
 		 
 			/* Dropdown Content */
 		#AboutUs- .dropdown-content {display: none;position: relative;z-index: 1;background: url(http://i.imgur.com/zZUbQxs.png);min-width: 160px;box-shadow: 0px 10px 16px 0px rgba(0,0,1,1);}
