@@ -54,7 +54,7 @@
 			border: 5px solid gray;
 			border-radius: 15px 0px 0px 0px;
 			position: absolute;
-			left: 4px;
+			left: 0px;
 			margin-top: -5px;
 			background: url(http://i.imgur.com/zZUbQxs.png);
 		}
@@ -63,7 +63,7 @@
 			padding: 5px;
 			border: 5px solid gray;
 			position: absolute;
-			left: 80px;
+			left: 75px;
 			margin-top: -5px;
 			background: url(http://i.imgur.com/zZUbQxs.png);
 		} #AboutUs- #Nera .test {font-size:2.8vw; padding:0px;}
@@ -80,10 +80,10 @@
 		#AboutUs- .dropdown {
 			position: relative;
 			display: inline-block;
-			right: 87px;
+			right: 37px;
 			float: right;
 			margin-top: 13px;
-		}
+		}#AboutUs- .dropdown-content { right:35px; border-radius: 12px}
 
 					/*--- Center Box in Body ---*/
 	#AboutUs- #CenBox{
@@ -136,13 +136,18 @@
 				margin-top:5px;
 			}
 								/*--- Email Me form box ---*/
+				#AboutUs- .modal-dialog {
+					display: block;
+					position: relative;
+					z-index: 1;
+				}
 				#AboutUs- .modal-header {
 				background: url(http://i.imgur.com/zZUbQxs.png);
 				border-radius: 4px 4px 0px 0px;
 				}
 
 				#AboutUs- .modal-body {
-					background: url(http://i.imgur.com/zZUbQxs.png)
+					background: url(http://i.imgur.com/zZUbQxs.png);
 				}
 
 				#AboutUs- .modal-footer {

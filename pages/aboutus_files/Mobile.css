@@ -11,21 +11,21 @@
 					/*--- Fixed Box ---*/
 
 					/*--- Body ---*/
-	.modal-header {
+	#AboutUs- .modal-header {
 	background: url(http://i.imgur.com/zZUbQxs.png);
 	border-radius: 4px 4px 0px 0px;
 	}
 
-	.modal-body {
+	#AboutUs- .modal-body {
 		background: url(http://i.imgur.com/zZUbQxs.png)
 	}
 
-	.modal-footer {
+	#AboutUs- .modal-footer {
 		background: url(http://i.imgur.com/zZUbQxs.png);
 		border-radius: 0px 0px 4px 4px;
 	}
 
-	.modal-backdrop {
+	#AboutUs- .modal-backdrop {
 	background-color: #333;
 	}
 
@@ -73,19 +73,10 @@
 /* The container <div> - needed to position the dropdown content */
 		#AboutUs- .dropdown {
 			position: absolute;
-			right: -40px;
+			right: -95px;
 			margin-top: 30px;
 		}#AboutUs- .dropbtn{ padding-top: 6px; height: 40px; width: 90px; font-size: 12px; }
-		 #AboutUs- .dropdown-content { right:55px; border-radius: 12px}
-		 
-			/* Dropdown Content */
-		#AboutUs- .dropdown-content {display: none;position: relative;z-index: 1;background: url(http://i.imgur.com/zZUbQxs.png);min-width: 160px;box-shadow: 0px 10px 16px 0px rgba(0,0,1,1);}
-		#AboutUs- .dropdown-content a {padding: 12px 16px;text-decoration: none;display: block;}
-		#AboutUs- .dropdown-content a:hover {background-color: darkgray}
-		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-		#AboutUs- .show1{display:block;}
-		#AboutUs- .show2 {display:block;}
-		#AboutUs- .show3 {display:block;}
+		 #AboutUs- .dropdown-content { right:105px; border-radius: 12px}
 	
 					/*--- Center Box in Body ---*/
 	#AboutUs- #CenBox{
