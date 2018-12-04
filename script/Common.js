@@ -5,12 +5,14 @@
 function myFunction1() {document.getElementById("myDropdown1").classList.toggle("show1");}
 function myFunction2() {document.getElementById("myDropdown2").classList.toggle("show2");}
 function myFunction3() {document.getElementById("myDropdown3").classList.toggle("show3");}
+function myFunction4() {document.getElementById("myDropdown4").classList.toggle("show4");}
 		// Close the dropdown menu if mouse click out
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) { var dropdowns = document.getElementsByClassName("dropdown-content"); var i;for (i = 0; i < dropdowns.length; i++) {var openDropdown = dropdowns[i];
 	  if (openDropdown.classList.contains('show1')) {openDropdown.classList.remove('show1');}
 	  if (openDropdown.classList.contains('show2')) {openDropdown.classList.remove('show2');}
-	  if (openDropdown.classList.contains('show3')) {openDropdown.classList.remove('show3');} }}}
+	  if (openDropdown.classList.contains('show3')) {openDropdown.classList.remove('show3');} 
+	  if (openDropdown.classList.contains('show4')) {openDropdown.classList.remove('show4');} }}}
 
 	//Script for Clock
 function runClock() {

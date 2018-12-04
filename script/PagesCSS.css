@@ -80,10 +80,10 @@
 		#AboutUs- .dropdown {
 			position: relative;
 			display: inline-block;
-			right: 37px;
+			right: 100px;
 			float: right;
 			margin-top: 13px;
-		}#AboutUs- .dropdown-content { right:35px; border-radius: 12px}
+		}#AboutUs- .dropdown-content { right:15px; border-radius: 12px}
 
 					/*--- Center Box in Body ---*/
 	#AboutUs- #CenBox{
